@@ -1,0 +1,15 @@
+﻿@model MapAdminInterface.Models.Location
+
+@{
+    ViewBag.Title = "Ta bort plats";
+}
+<fieldset>
+    <legend>Ta bort</legend>
+    <p>Är du säker på att du vill ta bort platsen @Model.LocationNames.Where(m => m.is_main == true).First().location_name_swe?</p>
+    @using (Html.BeginForm()) {
+        <div class="actions">
+            <input type="submit" class="remove_submit" value="Ta bort" />
+            <div class="abort">@Html.ActionLink("Avbryt", "Index", "Location")</div>
+        </div>
+    }
+</fieldset>

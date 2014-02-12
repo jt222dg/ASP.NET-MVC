@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MapAdminInterface.Models.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="MapAdminInterfaceModelsStoreContainer">
+    <EntitySet Name="Area" EntityType="MapAdminInterface.Models.Store.Area" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="City" EntityType="MapAdminInterface.Models.Store.City" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Icon" EntityType="MapAdminInterface.Models.Store.Icon" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Location" EntityType="MapAdminInterface.Models.Store.Location" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LocationName" EntityType="MapAdminInterface.Models.Store.LocationName" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LocationType" EntityType="MapAdminInterface.Models.Store.LocationType" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Area_City1" Association="MapAdminInterface.Models.Store.FK_Area_City1">
+      <End Role="City" EntitySet="City" />
+      <End Role="Area" EntitySet="Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Location_Area" Association="MapAdminInterface.Models.Store.FK_Location_Area">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="Location" EntitySet="Location" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Location_LocationType" Association="MapAdminInterface.Models.Store.FK_Location_LocationType">
+      <End Role="LocationType" EntitySet="LocationType" />
+      <End Role="Location" EntitySet="Location" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LocationName_Location" Association="MapAdminInterface.Models.Store.FK_LocationName_Location">
+      <End Role="Location" EntitySet="Location" />
+      <End Role="LocationName" EntitySet="LocationName" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LocationType_Icon" Association="MapAdminInterface.Models.Store.FK_LocationType_Icon">
+      <End Role="Icon" EntitySet="Icon" />
+      <End Role="LocationType" EntitySet="LocationType" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="area_id" />
+    </Key>
+    <Property Name="area_id" Type="smallint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="city_id" Type="tinyint" Nullable="false" />
+    <Property Name="area_swe" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="area_eng" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="latitude" Type="decimal" Precision="9" Scale="6" />
+    <Property Name="longitude" Type="decimal" Precision="9" Scale="6" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="city_id" />
+    </Key>
+    <Property Name="city_id" Type="tinyint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="city" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="latitude" Type="decimal" Precision="9" Scale="6" />
+    <Property Name="longitude" Type="decimal" Precision="9" Scale="6" />
+  </EntityType>
+  <EntityType Name="Icon">
+    <Key>
+      <PropertyRef Name="icon_id" />
+    </Key>
+    <Property Name="icon_id" Type="tinyint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="icon_link" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="location_id" />
+    </Key>
+    <Property Name="location_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="location_type_id" Type="smallint" Nullable="false" />
+    <Property Name="area_id" Type="smallint" Nullable="false" />
+    <Property Name="latitude" Type="decimal" Precision="9" Scale="6" />
+    <Property Name="longitude" Type="decimal" Precision="9" Scale="6" />
+    <Property Name="floor_nr" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="LocationName">
+    <Key>
+      <PropertyRef Name="location_name_id" />
+    </Key>
+    <Property Name="location_name_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="location_id" Type="int" Nullable="false" />
+    <Property Name="location_name_swe" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="location_name_eng" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="is_main" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LocationType">
+    <Key>
+      <PropertyRef Name="location_type_id" />
+    </Key>
+    <Property Name="location_type_id" Type="smallint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="location_type_swe" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="location_type_eng" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="icon_id" Type="tinyint" />
+  </EntityType>
+  <Association Name="FK_Area_City1">
+    <End Role="City" Type="MapAdminInterface.Models.Store.City" Multiplicity="1" />
+    <End Role="Area" Type="MapAdminInterface.Models.Store.Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="city_id" />
+      </Principal>
+      <Dependent Role="Area">
+        <PropertyRef Name="city_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Location_Area">
+    <End Role="Area" Type="MapAdminInterface.Models.Store.Area" Multiplicity="1" />
+    <End Role="Location" Type="MapAdminInterface.Models.Store.Location" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="area_id" />
+      </Principal>
+      <Dependent Role="Location">
+        <PropertyRef Name="area_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Location_LocationType">
+    <End Role="LocationType" Type="MapAdminInterface.Models.Store.LocationType" Multiplicity="1" />
+    <End Role="Location" Type="MapAdminInterface.Models.Store.Location" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LocationType">
+        <PropertyRef Name="location_type_id" />
+      </Principal>
+      <Dependent Role="Location">
+        <PropertyRef Name="location_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LocationName_Location">
+    <End Role="Location" Type="MapAdminInterface.Models.Store.Location" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="LocationName" Type="MapAdminInterface.Models.Store.LocationName" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="location_id" />
+      </Principal>
+      <Dependent Role="LocationName">
+        <PropertyRef Name="location_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LocationType_Icon">
+    <End Role="Icon" Type="MapAdminInterface.Models.Store.Icon" Multiplicity="0..1" />
+    <End Role="LocationType" Type="MapAdminInterface.Models.Store.LocationType" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Icon">
+        <PropertyRef Name="icon_id" />
+      </Principal>
+      <Dependent Role="LocationType">
+        <PropertyRef Name="icon_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="usp_area_locations" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="area_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="usp_search_locations" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="search" Type="varchar" Mode="In" />
+  </Function>
+</Schema>

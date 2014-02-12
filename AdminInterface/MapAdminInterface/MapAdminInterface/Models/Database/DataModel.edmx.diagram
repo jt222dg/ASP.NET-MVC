@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="32dc19acfbc54c4f874a738ec448173a" Name="Diagram1">
+        <EntityTypeShape EntityType="MapAdminInterface.Models.Area" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MapAdminInterface.Models.City" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MapAdminInterface.Models.Icon" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MapAdminInterface.Models.Location" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MapAdminInterface.Models.LocationName" Width="1.5" PointX="7.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MapAdminInterface.Models.LocationType" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="MapAdminInterface.Models.FK_Area_City1" ManuallyRouted="false" />
+        <AssociationConnector Association="MapAdminInterface.Models.FK_Location_Area" ManuallyRouted="false" />
+        <AssociationConnector Association="MapAdminInterface.Models.FK_LocationType_Icon" ManuallyRouted="false" />
+        <AssociationConnector Association="MapAdminInterface.Models.FK_Location_LocationType" ManuallyRouted="false" />
+        <AssociationConnector Association="MapAdminInterface.Models.FK_LocationName_Location" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

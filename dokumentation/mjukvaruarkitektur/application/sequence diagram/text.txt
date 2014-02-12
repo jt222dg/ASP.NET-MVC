@@ -1,0 +1,21 @@
+START ADMIN INTERFACE
+
+AdminInterface->GoogleMaps :position
+GoogleMaps->AdminInterface : coordinates
+
+AdminInterface->Databas :stored proc
+Databas->AdminInterface : ?? value
+
+
+START USER INTERFACE
+
+UserInterface->MapApi : request
+MapApi-> UserInterface
+
+MapApi->Database : stored proc
+Database->MapApi : ?? value
+
+MapApi->UserInterface : Obj Location
+
+UserInterface->GoogleMaps :location.coordinates
+GoogleMaps->UserInterface : obj Map

@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MapAPI.Models.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="MapAPIModelsStoreContainer">
+          <EntitySet Name="Area" EntityType="MapAPI.Models.Store.Area" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="City" EntityType="MapAPI.Models.Store.City" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Icon" EntityType="MapAPI.Models.Store.Icon" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Location" EntityType="MapAPI.Models.Store.Location" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="LocationName" EntityType="MapAPI.Models.Store.LocationName" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="LocationType" EntityType="MapAPI.Models.Store.LocationType" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Area_City1" Association="MapAPI.Models.Store.FK_Area_City1">
+            <End Role="City" EntitySet="City" />
+            <End Role="Area" EntitySet="Area" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Location_Area" Association="MapAPI.Models.Store.FK_Location_Area">
+            <End Role="Area" EntitySet="Area" />
+            <End Role="Location" EntitySet="Location" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Location_LocationType" Association="MapAPI.Models.Store.FK_Location_LocationType">
+            <End Role="LocationType" EntitySet="LocationType" />
+            <End Role="Location" EntitySet="Location" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LocationName_Location" Association="MapAPI.Models.Store.FK_LocationName_Location">
+            <End Role="Location" EntitySet="Location" />
+            <End Role="LocationName" EntitySet="LocationName" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LocationType_Icon" Association="MapAPI.Models.Store.FK_LocationType_Icon">
+            <End Role="Icon" EntitySet="Icon" />
+            <End Role="LocationType" EntitySet="LocationType" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Area">
+          <Key>
+            <PropertyRef Name="area_id" />
+          </Key>
+          <Property Name="area_id" Type="smallint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="city_id" Type="tinyint" Nullable="false" />
+          <Property Name="area_swe" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="area_eng" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="latitude" Type="decimal" Precision="9" Scale="6" />
+          <Property Name="longitude" Type="decimal" Precision="9" Scale="6" />
+        </EntityType>
+        <EntityType Name="City">
+          <Key>
+            <PropertyRef Name="city_id" />
+          </Key>
+          <Property Name="city_id" Type="tinyint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="city" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="latitude" Type="decimal" Precision="9" Scale="6" />
+          <Property Name="longitude" Type="decimal" Precision="9" Scale="6" />
+        </EntityType>
+        <EntityType Name="Icon">
+          <Key>
+            <PropertyRef Name="icon_id" />
+          </Key>
+          <Property Name="icon_id" Type="tinyint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="icon_link" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Location">
+          <Key>
+            <PropertyRef Name="location_id" />
+          </Key>
+          <Property Name="location_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="location_type_id" Type="smallint" Nullable="false" />
+          <Property Name="area_id" Type="smallint" Nullable="false" />
+          <Property Name="latitude" Type="decimal" Nullable="false" Precision="9" Scale="6" />
+          <Property Name="longitude" Type="decimal" Nullable="false" Precision="9" Scale="6" />
+          <Property Name="floor_nr" Type="tinyint" />
+        </EntityType>
+        <EntityType Name="LocationName">
+          <Key>
+            <PropertyRef Name="location_name_id" />
+          </Key>
+          <Property Name="location_name_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="location_id" Type="int" Nullable="false" />
+          <Property Name="location_name_swe" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="location_name_eng" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="is_main" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LocationType">
+          <Key>
+            <PropertyRef Name="location_type_id" />
+          </Key>
+          <Property Name="location_type_id" Type="smallint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="location_type_swe" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="location_type_eng" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="icon_id" Type="tinyint" />
+        </EntityType>
+        <Association Name="FK_Area_City1">
+          <End Role="City" Type="MapAPI.Models.Store.City" Multiplicity="1" />
+          <End Role="Area" Type="MapAPI.Models.Store.Area" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="City">
+              <PropertyRef Name="city_id" />
+            </Principal>
+            <Dependent Role="Area">
+              <PropertyRef Name="city_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Location_Area">
+          <End Role="Area" Type="MapAPI.Models.Store.Area" Multiplicity="1" />
+          <End Role="Location" Type="MapAPI.Models.Store.Location" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Area">
+              <PropertyRef Name="area_id" />
+            </Principal>
+            <Dependent Role="Location">
+              <PropertyRef Name="area_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Location_LocationType">
+          <End Role="LocationType" Type="MapAPI.Models.Store.LocationType" Multiplicity="1" />
+          <End Role="Location" Type="MapAPI.Models.Store.Location" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LocationType">
+              <PropertyRef Name="location_type_id" />
+            </Principal>
+            <Dependent Role="Location">
+              <PropertyRef Name="location_type_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LocationName_Location">
+          <End Role="Location" Type="MapAPI.Models.Store.Location" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LocationName" Type="MapAPI.Models.Store.LocationName" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Location">
+              <PropertyRef Name="location_id" />
+            </Principal>
+            <Dependent Role="LocationName">
+              <PropertyRef Name="location_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LocationType_Icon">
+          <End Role="Icon" Type="MapAPI.Models.Store.Icon" Multiplicity="0..1" />
+          <End Role="LocationType" Type="MapAPI.Models.Store.LocationType" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Icon">
+              <PropertyRef Name="icon_id" />
+            </Principal>
+            <Dependent Role="LocationType">
+              <PropertyRef Name="icon_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MapAPI.Models" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="MapEntities" p1:LazyLoadingEnabled="false">
+          <EntitySet Name="Areas" EntityType="MapAPI.Models.Area" />
+          <EntitySet Name="Cities" EntityType="MapAPI.Models.City" />
+          <EntitySet Name="Icons" EntityType="MapAPI.Models.Icon" />
+          <EntitySet Name="Locations" EntityType="MapAPI.Models.Location" />
+          <EntitySet Name="LocationNames" EntityType="MapAPI.Models.LocationName" />
+          <EntitySet Name="LocationTypes" EntityType="MapAPI.Models.LocationType" />
+          <AssociationSet Name="FK_Area_City1" Association="MapAPI.Models.FK_Area_City1">
+            <End Role="City" EntitySet="Cities" />
+            <End Role="Area" EntitySet="Areas" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Location_Area" Association="MapAPI.Models.FK_Location_Area">
+            <End Role="Area" EntitySet="Areas" />
+            <End Role="Location" EntitySet="Locations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LocationType_Icon" Association="MapAPI.Models.FK_LocationType_Icon">
+            <End Role="Icon" EntitySet="Icons" />
+            <End Role="LocationType" EntitySet="LocationTypes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Location_LocationType" Association="MapAPI.Models.FK_Location_LocationType">
+            <End Role="LocationType" EntitySet="LocationTypes" />
+            <End Role="Location" EntitySet="Locations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LocationName_Location" Association="MapAPI.Models.FK_LocationName_Location">
+            <End Role="Location" EntitySet="Locations" />
+            <End Role="LocationName" EntitySet="LocationNames" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Area">
+          <Key>
+            <PropertyRef Name="area_id" />
+          </Key>
+          <Property Name="area_id" Type="Int16" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="city_id" Type="Byte" Nullable="false" />
+          <Property Name="area_swe" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="area_eng" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="latitude" Type="Decimal" Precision="9" Scale="6" />
+          <Property Name="longitude" Type="Decimal" Precision="9" Scale="6" />
+          <NavigationProperty Name="City" Relationship="MapAPI.Models.FK_Area_City1" FromRole="Area" ToRole="City" />
+          <NavigationProperty Name="Locations" Relationship="MapAPI.Models.FK_Location_Area" FromRole="Area" ToRole="Location" />
+        </EntityType>
+        <EntityType Name="City">
+          <Key>
+            <PropertyRef Name="city_id" />
+          </Key>
+          <Property Name="city_id" Type="Byte" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="city1" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="latitude" Type="Decimal" Precision="9" Scale="6" />
+          <Property Name="longitude" Type="Decimal" Precision="9" Scale="6" />
+          <NavigationProperty Name="Areas" Relationship="MapAPI.Models.FK_Area_City1" FromRole="City" ToRole="Area" />
+        </EntityType>
+        <EntityType Name="Icon">
+          <Key>
+            <PropertyRef Name="icon_id" />
+          </Key>
+          <Property Name="icon_id" Type="Byte" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="icon_link" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="LocationTypes" Relationship="MapAPI.Models.FK_LocationType_Icon" FromRole="Icon" ToRole="LocationType" />
+        </EntityType>
+        <EntityType Name="Location">
+          <Key>
+            <PropertyRef Name="location_id" />
+          </Key>
+          <Property Name="location_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="location_type_id" Type="Int16" Nullable="false" />
+          <Property Name="area_id" Type="Int16" Nullable="false" />
+          <Property Name="latitude" Type="Decimal" Nullable="false" Precision="9" Scale="6" />
+          <Property Name="longitude" Type="Decimal" Nullable="false" Precision="9" Scale="6" />
+          <Property Name="floor_nr" Type="Byte" />
+          <NavigationProperty Name="Area" Relationship="MapAPI.Models.FK_Location_Area" FromRole="Location" ToRole="Area" />
+          <NavigationProperty Name="LocationType" Relationship="MapAPI.Models.FK_Location_LocationType" FromRole="Location" ToRole="LocationType" />
+          <NavigationProperty Name="LocationNames" Relationship="MapAPI.Models.FK_LocationName_Location" FromRole="Location" ToRole="LocationName" />
+        </EntityType>
+        <EntityType Name="LocationName">
+          <Key>
+            <PropertyRef Name="location_name_id" />
+          </Key>
+          <Property Name="location_name_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="location_id" Type="Int32" Nullable="false" />
+          <Property Name="location_name_swe" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="location_name_eng" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="is_main" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Location" Relationship="MapAPI.Models.FK_LocationName_Location" FromRole="LocationName" ToRole="Location" />
+        </EntityType>
+        <EntityType Name="LocationType">
+          <Key>
+            <PropertyRef Name="location_type_id" />
+          </Key>
+          <Property Name="location_type_id" Type="Int16" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="location_type_swe" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="location_type_eng" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="icon_id" Type="Byte" />
+          <NavigationProperty Name="Icon" Relationship="MapAPI.Models.FK_LocationType_Icon" FromRole="LocationType" ToRole="Icon" />
+          <NavigationProperty Name="Locations" Relationship="MapAPI.Models.FK_Location_LocationType" FromRole="LocationType" ToRole="Location" />
+        </EntityType>
+        <Association Name="FK_Area_City1">
+          <End Role="City" Type="MapAPI.Models.City" Multiplicity="1" />
+          <End Role="Area" Type="MapAPI.Models.Area" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="City">
+              <PropertyRef Name="city_id" />
+            </Principal>
+            <Dependent Role="Area">
+              <PropertyRef Name="city_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Location_Area">
+          <End Role="Area" Type="MapAPI.Models.Area" Multiplicity="1" />
+          <End Role="Location" Type="MapAPI.Models.Location" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Area">
+              <PropertyRef Name="area_id" />
+            </Principal>
+            <Dependent Role="Location">
+              <PropertyRef Name="area_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LocationType_Icon">
+          <End Role="Icon" Type="MapAPI.Models.Icon" Multiplicity="0..1" />
+          <End Role="LocationType" Type="MapAPI.Models.LocationType" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Icon">
+              <PropertyRef Name="icon_id" />
+            </Principal>
+            <Dependent Role="LocationType">
+              <PropertyRef Name="icon_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Location_LocationType">
+          <End Role="LocationType" Type="MapAPI.Models.LocationType" Multiplicity="1" />
+          <End Role="Location" Type="MapAPI.Models.Location" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LocationType">
+              <PropertyRef Name="location_type_id" />
+            </Principal>
+            <Dependent Role="Location">
+              <PropertyRef Name="location_type_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LocationName_Location">
+          <End Role="Location" Type="MapAPI.Models.Location" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LocationName" Type="MapAPI.Models.LocationName" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Location">
+              <PropertyRef Name="location_id" />
+            </Principal>
+            <Dependent Role="LocationName">
+              <PropertyRef Name="location_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MapAPIModelsStoreContainer" CdmEntityContainer="MapEntities">
+          <EntitySetMapping Name="Areas">
+            <EntityTypeMapping TypeName="MapAPI.Models.Area">
+              <MappingFragment StoreEntitySet="Area">
+                <ScalarProperty Name="area_id" ColumnName="area_id" />
+                <ScalarProperty Name="city_id" ColumnName="city_id" />
+                <ScalarProperty Name="area_swe" ColumnName="area_swe" />
+                <ScalarProperty Name="area_eng" ColumnName="area_eng" />
+                <ScalarProperty Name="latitude" ColumnName="latitude" />
+                <ScalarProperty Name="longitude" ColumnName="longitude" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cities">
+            <EntityTypeMapping TypeName="MapAPI.Models.City">
+              <MappingFragment StoreEntitySet="City">
+                <ScalarProperty Name="city_id" ColumnName="city_id" />
+                <ScalarProperty Name="city1" ColumnName="city" />
+                <ScalarProperty Name="latitude" ColumnName="latitude" />
+                <ScalarProperty Name="longitude" ColumnName="longitude" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Icons">
+            <EntityTypeMapping TypeName="MapAPI.Models.Icon">
+              <MappingFragment StoreEntitySet="Icon">
+                <ScalarProperty Name="icon_id" ColumnName="icon_id" />
+                <ScalarProperty Name="icon_link" ColumnName="icon_link" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Locations">
+            <EntityTypeMapping TypeName="MapAPI.Models.Location">
+              <MappingFragment StoreEntitySet="Location">
+                <ScalarProperty Name="location_id" ColumnName="location_id" />
+                <ScalarProperty Name="location_type_id" ColumnName="location_type_id" />
+                <ScalarProperty Name="area_id" ColumnName="area_id" />
+                <ScalarProperty Name="latitude" ColumnName="latitude" />
+                <ScalarProperty Name="longitude" ColumnName="longitude" />
+                <ScalarProperty Name="floor_nr" ColumnName="floor_nr" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LocationNames">
+            <EntityTypeMapping TypeName="MapAPI.Models.LocationName">
+              <MappingFragment StoreEntitySet="LocationName">
+                <ScalarProperty Name="location_name_id" ColumnName="location_name_id" />
+                <ScalarProperty Name="location_id" ColumnName="location_id" />
+                <ScalarProperty Name="location_name_swe" ColumnName="location_name_swe" />
+                <ScalarProperty Name="location_name_eng" ColumnName="location_name_eng" />
+                <ScalarProperty Name="is_main" ColumnName="is_main" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LocationTypes">
+            <EntityTypeMapping TypeName="MapAPI.Models.LocationType">
+              <MappingFragment StoreEntitySet="LocationType">
+                <ScalarProperty Name="location_type_id" ColumnName="location_type_id" />
+                <ScalarProperty Name="location_type_swe" ColumnName="location_type_swe" />
+                <ScalarProperty Name="location_type_eng" ColumnName="location_type_eng" />
+                <ScalarProperty Name="icon_id" ColumnName="icon_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="ProcessDependentTemplatesOnSave" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

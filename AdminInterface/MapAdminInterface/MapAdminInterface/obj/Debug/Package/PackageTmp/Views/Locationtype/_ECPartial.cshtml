@@ -1,0 +1,50 @@
+﻿@model MapAdminInterface.ViewModels.LocationTypeViewModel
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true, "Det fanns fel i den postade informationen.")
+    <fieldset>
+            @if (ViewContext.RouteData.Values["action"].ToString() == "Edit")
+            {
+                <legend>Redigera Typen @Model.LocationType.location_type_swe</legend>
+            }
+            else{
+                <legend>Skapa Typ</legend>
+            }
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LocationType.location_type_swe)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LocationType.location_type_swe)<span class="required">*</span>
+            @Html.ValidationMessageFor(model => model.LocationType.location_type_swe)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LocationType.location_type_eng)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LocationType.location_type_eng)<span class="required">*</span>
+            @Html.ValidationMessageFor(model => model.LocationType.location_type_eng)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LocationType.Icon)
+        </div>
+
+        @Html.ValidationMessageFor(model => model.LocationType.icon_id)
+        <div class="icon_links">
+            @foreach (var ico in Model.Icons) {
+                var link = String.Format("~/Content/icons/{0}", ico.icon_link);
+                <div class="icon_link">
+                    @Html.RadioButtonFor(m => Model.LocationType.icon_id, ico.icon_id)@Html.ImageLink(ico.icon_link, "logo")
+                </div>
+            }
+        </div>
+
+        <div class="actions">
+            <input type="submit" class="save_submit" value="Spara" />
+            <div class="abort">@Html.ActionLink("Avbryt", "Index", "LocationType")</div>
+        </div>
+
+    </fieldset>
+}

@@ -1,0 +1,19 @@
+﻿body {
+    padding:0 0 20px 0;
+} .example {
+    margin:0 0 15px 0;
+} a, a:visited  {
+    background:#FFF500;
+    padding:2px 3px 2px 3px;
+} a:hover {
+    background:#00FF00;
+} .response {
+    overflow-y:scroll;
+    max-height:200px;
+    width:800px;
+    padding:5px 0 0 0;
+
+    border:1px solid #808080;
+    font-size:11px;
+    line-height:11px;
+}

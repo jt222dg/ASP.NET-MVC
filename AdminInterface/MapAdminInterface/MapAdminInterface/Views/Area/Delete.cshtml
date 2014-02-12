@@ -1,0 +1,15 @@
+﻿@model MapAdminInterface.ViewModels.AreaViewModel
+
+@{
+    ViewBag.Title = "Ta bort område";
+}
+<fieldset>
+    <legend>Ta bort Område</legend>
+    <p>Är du säker på att du vill ta bort området @Html.DisplayFor(model => model.Area.area_swe)?</p>
+    @using (Html.BeginForm()) {
+        <div class="actions">
+            <input type="submit" class="remove_submit" value="Ta bort" />
+            <div class="abort">@Html.ActionLink("Avbryt", "Index", "Area")</div>
+        </div>
+    }
+</fieldset>

@@ -1,0 +1,9 @@
+Vi har bara tre färger:
+Gul, Lila, Grön
+
+Lite till andra färger jag brukar använda:
+Font-color: 333333
+Några grå: e2e2e2 4C4C4C 555 787878 
+
+Font-family: Times New Roman,serif
+[13:50:01] Patrik Granlöv: Bästa stället att börja titta är här: https://medarbetare.lnu.se/stod-och-service/kommunikation-och-marknadsforing/designmanual

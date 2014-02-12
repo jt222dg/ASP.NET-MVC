@@ -1,0 +1,45 @@
+---------------------------
+PLATSER
+
+Ändra plats
+
+Lägg till plats(lägg till plats, med flera namn)
+
+Söker stroed proc, som söker antingen område eller platsnamn
+
+---------------------------
+PLATSTYP
+
+Ändra platstyp
+Ändras värdet kommer alla barnposter ändras(CASCADE)
+
+Lägg till platstyp
+
+Ta bort platstyp
+kan inte ta bort platstyp där typen används i andra tabeller(NO ACTION)
+
+Söka platstyp(filter)
+
+---------------------------
+OMRÅDE
+
+Ändra område
+Ändras värdet kommer alla barnposter ändras(CASCADE)
+
+lägg till område
+
+Ta bort område(Kan inte ta bort område där värden används i andra tabeller)(NO ACTION)
+
+---------------------------
+STAD
+
+Ändra Stad
+Ändras värdet kommer alla barnposter ändras(CASCADE)
+
+Lägg till stad
+
+Ta bort stad
+Kan inte ta bort städer som har värden i andra tabeller.(NO ACTION)
+
+
+http://www.zamzar.com/uploadComplete.php?convertFile=xls&to=xml

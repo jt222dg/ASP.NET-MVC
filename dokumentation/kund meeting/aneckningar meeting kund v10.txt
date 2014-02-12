@@ -1,0 +1,20 @@
+Det fattas lite på användargränssnittet, ta bort filter
+hitta hit länk med egen position
+
+Urlen när man gör sökning så ska den kunnas länkas.
+Hitta hit med typ, hitta hit!->ange dinnuvarande position->visar vägbeskrivning....
+
+Att ändra i admin gränssnittet
+- område namn	översätting(eng)
+- En rubrik på sök platsnamn
+- Ändra till plural i menyn(nav)
+- felmeddelande ska vara längst upp
+- felmeddelande saknas när man inte väljer något namn
+- konstigt felmeddelande när man inte väljer nåt namn
+- Null har första när man inte väljer nåt namn
+- Länk till editerat innehåll
+- Javascript auto uppdatering av fält
+- bredda kolumnen med tabellen
+- Satelit ska vara förbestämt på google maps
+- knappen lägg till ska vara större och ha lägg till som text.
+

@@ -1,0 +1,25 @@
+﻿@model MapAdminInterface.Models.LocationName
+@using MapAdminInterface.Helpers
+@{
+    ViewBag.Title = "LocationNames.cshtml";
+}
+<div class="@Model.Delete.ToString()"></div>
+<div class="locationName">
+    
+    <div class="editor-label-name">
+        @Html.LabelFor(model => model.location_name_swe)
+    </div>
+    @Html.TextBoxFor(x => x.location_name_swe)<span class="required">*</span>
+    @Html.ValidationMessageFor(x => x.location_name_swe)
+
+    @if(Model.location_name_eng == Model.location_name_swe){
+        Model.location_name_eng = "";
+    }
+    <div class="editor-label-name">
+        @Html.LabelFor(model => model.location_name_eng)
+    </div>
+    @Html.TextBoxFor(x => x.location_name_eng)
+
+    @Html.HiddenFor(x => x.Delete, new { @class = "mark-for-delete" })
+    @Html.LinkToRemoveNestedForm("div.locationName", "input.mark-for-delete")
+</div>

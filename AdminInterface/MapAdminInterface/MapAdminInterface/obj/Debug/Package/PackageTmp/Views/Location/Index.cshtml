@@ -1,0 +1,72 @@
+﻿@model MapAdminInterface.ViewModels.LocationViewModel
+
+@{
+    ViewBag.Title = "Platser";
+}
+
+<h1>Platser</h1>
+<div class="create"><span class="add_ico">+</span>@Html.ActionLink("Skapa plats", "Create")</div>
+
+<div id="search">
+    <fieldset>
+        <legend><h2>Sök platsnamn</h2></legend>
+        @using (Html.BeginForm("Index", "Location"))
+        {
+            @Html.TextBoxFor(modelItem => modelItem.SearchTerm)
+
+            <input type="submit" class="search_submit" value="Sök"/>
+        }
+        @Html.ActionLink("Visa alla områden", "Index", "Area")
+     </fieldset>
+</div>
+
+@if (Model.HasMadeSearch() && Model.SearchResult.Count() == 0){
+    <p>Det finns inga resultat för din sökning
+        @if(Model.SearchTerm != ""){
+            @Html.DisplayFor(model => model.SearchTerm)
+        }
+        else if (Model.AreaTerm != ""){
+            @Html.DisplayFor(model => model.AreaTerm)
+        }
+    </p>
+}
+else
+{
+    if(Model.SearchTerm != ""){
+        <h3>Platser med namn som innehåller @Html.DisplayFor(model => model.SearchTerm)</h3>
+    }
+    else if (Model.AreaTerm != ""){
+        <h3>Platser på området @Html.DisplayFor(model => model.AreaTerm)</h3>
+    }
+}
+
+@if (Model.HasSearchResults()) {
+    <p></p>
+    <table>
+    <tr>
+        <th>
+            Område
+        </th>
+        <th>
+            <p class="th_sv">Plats namn</p><p class="th_eng">Översättning eng</p>
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.SearchResult) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Area.area_swe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocationNames)
+            </td>
+            <td>
+                <div class="edit">@Html.ActionLink(" ", "Edit", new { id=item.location_id })</div>
+                <div class="remove">@Html.ActionLink(" ", "Delete", new { id=item.location_id })</div>
+            </td>
+        </tr>
+    }
+
+    </table>
+}

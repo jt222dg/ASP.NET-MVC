@@ -1,0 +1,20 @@
+Databas
+Server: karta.developer.lnu.se
+Databas: Karta
+Authenticering: Antingen Windows Authentication med era studentkonton eller nedanstående SQL-konto. (Använd SQL-konto från webbplatsen oavsett vad)
+Username: KartaUser
+Password: NYIYcwZgW8KiQBaMr3Ys
+
+Web
+Adress: http://karta.developer.lnu.se  
+Ni kan publicera antingen via en utdelad mapp eller med Web Deploy. 
+File share: \\karta.developer.lnu.se\karta.developer.lnu.se$ 
+
+Web Deploy
+Använd medföljande PublishSettings (importera i Visual Studio t ex) eller följande uppgifter:
+Service URL: karta.developer.lnu.se
+Site/application: karta.developer.lnu.se
+User name: LNU\aa222aa (ert studentkonto)
+Password: ******* (ert lösenord)
+Destination URL: http://karta.developer.lnu.se
+Connection String: Server=karta.developer.lnu.se;Database=Karta;User ID=KartaUser;Password=NYIYcwZgW8KiQBaMr3Ys

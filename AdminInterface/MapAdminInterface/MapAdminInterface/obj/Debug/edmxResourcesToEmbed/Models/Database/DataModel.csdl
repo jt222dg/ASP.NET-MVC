@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MapAdminInterface.Models" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MapEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Areas" EntityType="MapAdminInterface.Models.Area" />
+    <EntitySet Name="Cities" EntityType="MapAdminInterface.Models.City" />
+    <EntitySet Name="Icons" EntityType="MapAdminInterface.Models.Icon" />
+    <EntitySet Name="Locations" EntityType="MapAdminInterface.Models.Location" />
+    <EntitySet Name="LocationNames" EntityType="MapAdminInterface.Models.LocationName" />
+    <EntitySet Name="LocationTypes" EntityType="MapAdminInterface.Models.LocationType" />
+    <AssociationSet Name="FK_Area_City1" Association="MapAdminInterface.Models.FK_Area_City1">
+      <End Role="City" EntitySet="Cities" />
+      <End Role="Area" EntitySet="Areas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Location_Area" Association="MapAdminInterface.Models.FK_Location_Area">
+      <End Role="Area" EntitySet="Areas" />
+      <End Role="Location" EntitySet="Locations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LocationType_Icon" Association="MapAdminInterface.Models.FK_LocationType_Icon">
+      <End Role="Icon" EntitySet="Icons" />
+      <End Role="LocationType" EntitySet="LocationTypes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Location_LocationType" Association="MapAdminInterface.Models.FK_Location_LocationType">
+      <End Role="LocationType" EntitySet="LocationTypes" />
+      <End Role="Location" EntitySet="Locations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LocationName_Location" Association="MapAdminInterface.Models.FK_LocationName_Location">
+      <End Role="Location" EntitySet="Locations" />
+      <End Role="LocationName" EntitySet="LocationNames" />
+    </AssociationSet>
+    <FunctionImport Name="usp_area_locations" EntitySet="Locations" ReturnType="Collection(MapAdminInterface.Models.Location)">
+      <Parameter Name="area_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_search_locations" EntitySet="Locations" ReturnType="Collection(MapAdminInterface.Models.Location)">
+      <Parameter Name="search" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="area_id" />
+    </Key>
+    <Property Name="area_id" Type="Int16" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="city_id" Type="Byte" Nullable="false" />
+    <Property Name="area_swe" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="area_eng" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="latitude" Type="Decimal" Precision="9" Scale="6" />
+    <Property Name="longitude" Type="Decimal" Precision="9" Scale="6" />
+    <NavigationProperty Name="City" Relationship="MapAdminInterface.Models.FK_Area_City1" FromRole="Area" ToRole="City" />
+    <NavigationProperty Name="Locations" Relationship="MapAdminInterface.Models.FK_Location_Area" FromRole="Area" ToRole="Location" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="city_id" />
+    </Key>
+    <Property Name="city_id" Type="Byte" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="city1" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="latitude" Type="Decimal" Precision="9" Scale="6" />
+    <Property Name="longitude" Type="Decimal" Precision="9" Scale="6" />
+    <NavigationProperty Name="Areas" Relationship="MapAdminInterface.Models.FK_Area_City1" FromRole="City" ToRole="Area" />
+  </EntityType>
+  <EntityType Name="Icon">
+    <Key>
+      <PropertyRef Name="icon_id" />
+    </Key>
+    <Property Name="icon_id" Type="Byte" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="icon_link" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="LocationTypes" Relationship="MapAdminInterface.Models.FK_LocationType_Icon" FromRole="Icon" ToRole="LocationType" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="location_id" />
+    </Key>
+    <Property Name="location_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="location_type_id" Type="Int16" Nullable="false" />
+    <Property Name="area_id" Type="Int16" Nullable="false" />
+    <Property Name="latitude" Type="Decimal" Precision="9" Scale="6" />
+    <Property Name="longitude" Type="Decimal" Precision="9" Scale="6" />
+    <Property Name="floor_nr" Type="Byte" />
+    <NavigationProperty Name="Area" Relationship="MapAdminInterface.Models.FK_Location_Area" FromRole="Location" ToRole="Area" />
+    <NavigationProperty Name="LocationType" Relationship="MapAdminInterface.Models.FK_Location_LocationType" FromRole="Location" ToRole="LocationType" />
+    <NavigationProperty Name="LocationNames" Relationship="MapAdminInterface.Models.FK_LocationName_Location" FromRole="Location" ToRole="LocationName" />
+  </EntityType>
+  <EntityType Name="LocationName">
+    <Key>
+      <PropertyRef Name="location_name_id" />
+    </Key>
+    <Property Name="location_name_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="location_id" Type="Int32" Nullable="false" />
+    <Property Name="location_name_swe" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="location_name_eng" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="is_main" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Location" Relationship="MapAdminInterface.Models.FK_LocationName_Location" FromRole="LocationName" ToRole="Location" />
+  </EntityType>
+  <EntityType Name="LocationType">
+    <Key>
+      <PropertyRef Name="location_type_id" />
+    </Key>
+    <Property Name="location_type_id" Type="Int16" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="location_type_swe" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="location_type_eng" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="icon_id" Type="Byte" />
+    <NavigationProperty Name="Icon" Relationship="MapAdminInterface.Models.FK_LocationType_Icon" FromRole="LocationType" ToRole="Icon" />
+    <NavigationProperty Name="Locations" Relationship="MapAdminInterface.Models.FK_Location_LocationType" FromRole="LocationType" ToRole="Location" />
+  </EntityType>
+  <Association Name="FK_Area_City1">
+    <End Role="City" Type="MapAdminInterface.Models.City" Multiplicity="1" />
+    <End Role="Area" Type="MapAdminInterface.Models.Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="city_id" />
+      </Principal>
+      <Dependent Role="Area">
+        <PropertyRef Name="city_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Location_Area">
+    <End Role="Area" Type="MapAdminInterface.Models.Area" Multiplicity="1" />
+    <End Role="Location" Type="MapAdminInterface.Models.Location" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="area_id" />
+      </Principal>
+      <Dependent Role="Location">
+        <PropertyRef Name="area_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LocationType_Icon">
+    <End Role="Icon" Type="MapAdminInterface.Models.Icon" Multiplicity="0..1" />
+    <End Role="LocationType" Type="MapAdminInterface.Models.LocationType" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Icon">
+        <PropertyRef Name="icon_id" />
+      </Principal>
+      <Dependent Role="LocationType">
+        <PropertyRef Name="icon_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Location_LocationType">
+    <End Role="LocationType" Type="MapAdminInterface.Models.LocationType" Multiplicity="1" />
+    <End Role="Location" Type="MapAdminInterface.Models.Location" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LocationType">
+        <PropertyRef Name="location_type_id" />
+      </Principal>
+      <Dependent Role="Location">
+        <PropertyRef Name="location_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LocationName_Location">
+    <End Role="Location" Type="MapAdminInterface.Models.Location" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="LocationName" Type="MapAdminInterface.Models.LocationName" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="location_id" />
+      </Principal>
+      <Dependent Role="LocationName">
+        <PropertyRef Name="location_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="usp_area_locations_Result">
+    <Property Type="Int32" Name="location_id" Nullable="false" />
+    <Property Type="Int16" Name="location_type_id" Nullable="false" />
+    <Property Type="Int16" Name="area_id" Nullable="false" />
+    <Property Type="Decimal" Name="latitude" Nullable="false" Precision="9" Scale="6" />
+    <Property Type="Decimal" Name="longitude" Nullable="false" Precision="9" Scale="6" />
+    <Property Type="Byte" Name="floor_nr" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="usp_search_locations_Result">
+    <Property Type="Int32" Name="location_id" Nullable="false" />
+    <Property Type="Int16" Name="location_type_id" Nullable="false" />
+    <Property Type="Int16" Name="area_id" Nullable="false" />
+    <Property Type="Decimal" Name="latitude" Nullable="false" Precision="9" Scale="6" />
+    <Property Type="Decimal" Name="longitude" Nullable="false" Precision="9" Scale="6" />
+    <Property Type="Byte" Name="floor_nr" Nullable="true" />
+  </ComplexType>
+</Schema>

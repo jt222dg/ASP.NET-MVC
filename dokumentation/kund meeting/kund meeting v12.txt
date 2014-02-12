@@ -1,0 +1,16 @@
+Tester på iphone ger inte responsive logotyp
+Android fungerar inte heller
+Kunden säger att IE 9 och IE 10 inte fungerar, dt är som att sökfunktionen är låst.
+
+
+Apiet disskuteras om vi ska använda enegelska eller inte, vi kollar på kth och kommer fram till att det ska finnas på engelska.
+Vi dissuterar den ologiska textfilen och bara går igenom hur den ska formateras för att Jesper ska kunna modellera den direkt.
+Detta ska kunna genereras av apiet för att en ny textfil liknanade den facilities filen som natvie apparna jobbar mot idag.
+Den är i stort sett färdig men vi ville här dubbelkolla med kunden så att filen ska fungera rnt logiskt till native apparna.
+
+
+Admingränssnittet överlämnades och möte med kalle kommer att ske på fredag
+10.00 KOmmer överlämnaing av API ske samt disskution kring koden på admin och api.
+
+
+Vi disskuterar att vi är väldigt nöjda med feedback

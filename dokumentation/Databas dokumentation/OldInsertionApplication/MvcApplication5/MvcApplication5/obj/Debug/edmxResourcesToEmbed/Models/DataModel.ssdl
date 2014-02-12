@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MvcApplication5.Models.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="MvcApplication5ModelsStoreContainer" />
+  <Function Name="usp_Area" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="stad" Type="varchar" Mode="In" />
+    <Parameter Name="latitude" Type="decimal" Mode="In" />
+    <Parameter Name="longitude" Type="decimal" Mode="In" />
+    <Parameter Name="byggnad_sv" Type="varchar" Mode="In" />
+    <Parameter Name="byggnad_en" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="usp_insert_OldDATA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="latitud" Type="decimal" Mode="In" />
+    <Parameter Name="longitud" Type="decimal" Mode="In" />
+    <Parameter Name="ritningsnamn" Type="varchar" Mode="In" />
+    <Parameter Name="rumsnamn2" Type="varchar" Mode="In" />
+    <Parameter Name="rumsnamn3" Type="varchar" Mode="In" />
+    <Parameter Name="rumsnamn4" Type="varchar" Mode="In" />
+    <Parameter Name="byggnad_sv" Type="varchar" Mode="In" />
+    <Parameter Name="byggnad_en" Type="varchar" Mode="In" />
+    <Parameter Name="vaning" Type="tinyint" Mode="In" />
+    <Parameter Name="stad" Type="varchar" Mode="In" />
+    <Parameter Name="rumstyp_sv" Type="varchar" Mode="In" />
+    <Parameter Name="rumstyp_en" Type="varchar" Mode="In" />
+  </Function>
+</Schema>

@@ -1,0 +1,26 @@
+Vad innebär typ i facilities?
+latitude och longitude är knutet till rummen och inte byggnaden?
+testmiljö
+
+defaultvärden, önskningar
+Hur många procent är detta av totala tänkta db målet storleksmässigt?
+Kan det finnas flera ritningsnamn?
+
+Rummen, det finns 9 rum som har två rumsnamn och inga som har tre rumsnamn. 
+
+Två av de rum som har två namn, har samma rumsnamn 1 som 2.  Hur ska dessa användas?
+Av vilken anledning ska det finnas fler rumsnamn? är det för att kunna söka på fler saker? Kan man byta ut detta mot en beskrivning av rummen istället? Eller t ex taggar?
+Spontant känns det som att i nuläget kommer det orsaka mer fel och minnes upptag än vad det gör nytta.
+
+Resultat av hämtning av rum som har två namn
+rumsnamn 2		rumsnamn 3
+
+C305K			Hörsalen
+Studio 1		A2008K
+N2032K			Studio 3
+IT Helpdesk		IT Servicedesk
+Idrottshall		Gymnasium
+Myrdahl			Myrdal
+Wicksell		Wiksell
+Foajé			Munch
+IT Servicedesk	IT-support

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MvcApplication5.Models" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="kartaEntities" p1:LazyLoadingEnabled="true">
+    <FunctionImport Name="usp_Area">
+      <Parameter Name="stad" Mode="In" Type="String" />
+      <Parameter Name="latitude" Mode="In" Type="Decimal" />
+      <Parameter Name="longitude" Mode="In" Type="Decimal" />
+      <Parameter Name="byggnad_sv" Mode="In" Type="String" />
+      <Parameter Name="byggnad_en" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_insert_OldDATA">
+      <Parameter Name="latitud" Mode="In" Type="Decimal" />
+      <Parameter Name="longitud" Mode="In" Type="Decimal" />
+      <Parameter Name="ritningsnamn" Mode="In" Type="String" />
+      <Parameter Name="rumsnamn2" Mode="In" Type="String" />
+      <Parameter Name="rumsnamn3" Mode="In" Type="String" />
+      <Parameter Name="rumsnamn4" Mode="In" Type="String" />
+      <Parameter Name="byggnad_sv" Mode="In" Type="String" />
+      <Parameter Name="byggnad_en" Mode="In" Type="String" />
+      <Parameter Name="vaning" Mode="In" Type="Byte" />
+      <Parameter Name="stad" Mode="In" Type="String" />
+      <Parameter Name="rumstyp_sv" Mode="In" Type="String" />
+      <Parameter Name="rumstyp_en" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

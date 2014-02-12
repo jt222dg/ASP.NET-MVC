@@ -1,0 +1,69 @@
+﻿@model MapAdminInterface.ViewModels.AreaViewModel
+
+@{
+    ViewBag.Title = "Redigera Område";
+}
+
+@using (Html.BeginForm("Edit", "Area", FormMethod.Post, new{@id="area_form"})) {
+    @Html.ValidationSummary(true, "Det fanns fel i den postade informationen.")
+    <fieldset>
+        <legend>Redigera området @Model.Area.area_swe</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Area.area_swe)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Area.area_swe)<span class="required">*</span>
+            @Html.ValidationMessageFor(model => model.Area.area_swe)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Area.area_eng)
+        </div>
+        @if (Model.Area.area_swe == Model.Area.area_eng)
+        {
+            Model.Area.area_eng = "";
+        }
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Area.area_eng)
+            @Html.ValidationMessageFor(model => model.Area.area_eng)
+        </div>
+
+        <div class="editor-label">
+            <label>Stad</label>
+        </div>
+        <div class="editor-field">
+            @Model.GetCity(Model.Area.city_id).city1.ToString()
+            @Html.HiddenFor(model => model.Area.city_id)
+        </div>
+
+        @if (Model.HasChosenCity)
+        {
+            Model.Area.latitude = 0;
+            Model.Area.longitude = 0;
+        }
+            
+        @Html.HiddenFor(model => model.Area.latitude)
+        @Html.HiddenFor(model => model.Area.longitude)
+        
+        <div class="editor-label">
+            <label>Koordinater</label>
+        </div>
+        <p>Sätt ut markören på området</p>
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+        <script type="text/javascript" src="@Url.Content("~/Scripts/googlemaps.js")"></script>
+        <div id="map_canvas" style="width:100%; height:300px"></div>
+        <script type="text/javascript">
+            if ("@Model.Area.latitude" != 0) {
+                initialize("@Model.Area.latitude.ToString()", "@Model.Area.longitude.ToString()", zoomValue = 15)
+            }
+            else {
+                initialize("@Model.GetCity(Model.Area.city_id).latitude.ToString()", "@Model.GetCity(Model.Area.city_id).longitude.ToString()", zoomValue = 15)
+            }
+        </script>
+        <div class="actions">
+            <input type="submit" class="save_submit" name="save" value="Spara" />
+            <div class="abort">@Html.ActionLink("Avbryt", "Index", "Area")</div>
+        </div>
+    </fieldset>
+}

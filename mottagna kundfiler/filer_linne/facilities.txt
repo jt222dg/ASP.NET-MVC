@@ -1,0 +1,607 @@
+1;56.85519932571307;14.828517436981201|Hus B (House B), Växjö|Byggnad;sv_SE;Building;en_US
+0;56.85538997231748;14.828002452850342|B1006V, Hus B (House B), Växjö|Våning 1, rum B1006V. Lärosal.;sv_SE;Floor 1, room B1006V. Classroom.;en_US
+0;56.855291716111914;14.828380644321442|B1009V, Hus B (House B), Växjö|Våning 1, rum B1009V. Lärosal.;sv_SE;Floor 1, room B1009V. Classroom.;en_US
+0;56.85525011601579;14.828518778085709|B1022V, Hus B (House B), Växjö|Våning 1, rum B1022V. Grupprum.;sv_SE;Floor 1, room B1022V. Group room.;en_US
+0;56.85521785269197;14.828569740056992|B1023V, Hus B (House B), Växjö|Våning 1, rum B1023V. Grupprum.;sv_SE;Floor 1, room B1023V. Group room.;en_US
+0;56.85540730155534;14.828448370099068|B2018V, Hus B (House B), Växjö|Våning 2, rum B2018V. Konferensrum.;sv_SE;Floor 2, room B2018V. Conference room.;en_US
+1;56.855683272888925;14.827755689620972|Hus C (House C), Växjö|Byggnad;sv_SE;Building;en_US
+0;56.85545596514654;14.827439188957214|C1202V, Hus C (House C), Växjö;Newton, Hus C (House C), Växjö|Våning 1, rum C1202V. Lärosal.;sv_SE;Floor 1, room C1202V. Classroom.;en_US
+0;56.85577126261201;14.828104376792908|C2303V, Hus C (House C), Växjö|Våning 2, rum C2303V. Lärosal.;sv_SE;Floor 2, room C2303V. Classroom.;en_US
+1;56.855633411954;14.828592538833618|Hus D (House D), Växjö|Byggnad;sv_SE;Building;en_US
+0;56.85560408196124;14.828340411186218|D1136V, Hus D (House D), Växjö|Våning 1, rum D1136V. Hörsal.;sv_SE;Floor 1, room D1136V. Lecture hall.;en_US
+0;56.855806458443276;14.828667640686035|D1173V, Hus D (House D), Växjö|Våning 1, rum D1173V. Lärosal.;sv_SE;Floor 1, room D1173V. Classroom.;en_US
+0;56.855726;14.828432|D1142V, Hus D (House D), Växjö|Våning 1, rum D1142V. Lärosal.;sv_SE;Floor 1, room D1142V. Classroom.;en_US
+0;56.8555194892435;14.828420206904411|D1105V, Hus D (House D), Växjö|Våning 1, rum D1105V. Grupprum.;sv_SE;Floor 1, room D1105V. Group room.;en_US
+0;56.85552168899873;14.828353151679039|D2236V, Hus D (House D), Växjö|Våning 2, rum D2236V. Lärosal.;sv_SE;Floor 2, room D2236V. Classroom.;en_US
+1;56.85556888593957;14.830824136734009|Hus F (House F), Växjö|Byggnad;sv_SE;Building;en_US
+0;56.85577712858618;14.830883145332336|F119V, Hus F (House F), Växjö;Leonardo, Hus F (House F), Växjö|Våning 1, rum F119V. Hörsal.;sv_SE;Floor 1, room F119V. Lecture hall.;en_US
+0;56.85576832962455;14.830783903598785|F120V, Hus F (House F), Växjö;Leonardo, Hus F (House F), Växjö|Våning 1, rum F120V. Hörsal.;sv_SE;Floor 1, room F120V. Lecture hall.;en_US
+0;56.85571113632362;14.830472767353058|F207V, Hus F (House F), Växjö;Fröbel, Hus F (House F), Växjö|Våning 2, rum F207V. Grupprum.;sv_SE;Floor 2, room F207V. Group room.;en_US
+0;56.85573606674761;14.830472767353058|F208V, Hus F (House F), Växjö;Comenius, Hus F (House F), Växjö|Våning 2, rum F208V. Grupprum.;sv_SE;Floor 2, room F208V. Group room.;en_US
+0;56.855395;14.830956|F303V, Hus F (House F), Växjö;Lammhultsrummet, Hus F (House F), Växjö|Våning 3, rum F303V. Videokonferens.;sv_SE;Floor 3, room F303V. Video conference.;en_US
+0;56.85572506803317;14.830771833658218|F313V, Hus F (House F), Växjö;Strindberg, Hus F (House F), Växjö|Våning 3, rum F313V. Hörsal.;sv_SE;Floor 3, room F313V. Lecture hall.;en_US
+0;56.85579839273489;14.83074501156807|F314V, Hus F (House F), Växjö;Strindberg, Hus F (House F), Växjö|Våning 3, rum F314V. Hörsal.;sv_SE;Floor 3, room F314V. Lecture hall.;en_US
+0;56.85587318378254;14.83050361275673|F322V, Hus F (House F), Växjö;Wägner, Hus F (House F), Växjö|Våning 3, rum F322V. Lärosal.;sv_SE;Floor 3, room F322V. Classroom.;en_US
+0;56.85590984600623;14.830974340438843|F330V, Hus F (House F), Växjö;Moberg, Hus F (House F), Växjö|Våning 3, rum F330V. Lärosal.;sv_SE;Floor 3, room F330V. Classroom.;en_US
+0;56.855737533242625;14.83090192079544|F332V, Hus F (House F), Växjö;Homeros, Hus F (House F), Växjö|Våning 3, rum F332V. Hörsal.;sv_SE;Floor 3, room F332V. Lecture hall.;en_US
+0;56.85568400613746;14.831053465604782|F338V, Hus F (House F), Växjö;Lagerkvist, Hus F (House F), Växjö|Våning 3, rum F338V. Föreläsningssal.;sv_SE;Floor 3, room F338V. Auditorium.;en_US
+1;56.85537824024683;14.832143783569336|Hus G (House G), Växjö|Byggnad;sv_SE;Building;en_US
+0;56.85549996030122;14.83240395784378|G106V, Hus G (House G), Växjö;Humboldt, Hus G (House G), Växjö|Våning , rum G106V. Grupprum.;sv_SE;Floor , room G106V. Group room.;en_US
+0;56.85533717797046;14.831996262073517|G137V, Hus G (House G), Växjö|Våning , rum G137V. Grupprum.;sv_SE;Floor , room G137V. Group room.;en_US
+1;56.85455698615706;14.830518364906311|Hus H (House H), Växjö|Byggnad;sv_SE;Building;en_US
+0;56.85455698615706;14.829901456832886|H0201V, Hus H (House H), Växjö|Våning 0, rum H0201V. Konferensrum.;sv_SE;Floor 0, room H0201V. Conference room.;en_US
+0;56.85459364967048;14.829845130443573|H0203V, Hus H (House H), Växjö|Våning 0, rum H0203V. Ljudstudio.;sv_SE;Floor 0, room H0203V. Sound studio.;en_US
+0;56.854562852321635;14.829719066619873|H1206V, Hus H (House H), Växjö|Våning 1, rum H1206V. Lärosal.;sv_SE;Floor 1, room H1206V. Classroom.;en_US
+0;56.85457898426942;14.8298679292202|H1207V, Hus H (House H), Växjö|Våning 1, rum H1207V. Lärosal.;sv_SE;Floor 1, room H1207V. Classroom.;en_US
+0;56.854639845646254;14.82985720038414|H1208V, Hus H (House H), Växjö|Våning 1, rum H1208V. Lärosal.;sv_SE;Floor 1, room H1208V. Classroom.;en_US
+0;56.85465817736686;14.830028861761093|H1210V, Hus H (House H), Växjö|Våning 1, rum H1210V. Lärosal.;sv_SE;Floor 1, room H1210V. Classroom.;en_US
+0;56.854590716590735;14.830044955015182|H1211V, Hus H (House H), Växjö|Våning 1, rum H1211V. Lärosal.;sv_SE;Floor 1, room H1211V. Classroom.;en_US
+0;56.8546589106355;14.830118715763092|H1272V, Hus H (House H), Växjö|Våning 1, rum H1272V. Konferensrum.;sv_SE;Floor 1, room H1272V. Conference room.;en_US
+0;56.854466060488754;14.830089211463928|H1310V, Hus H (House H), Växjö|Våning 1, rum H1310V. Lärosal.;sv_SE;Floor 1, room H1310V. Classroom.;en_US
+0;56.854405932102836;14.830105304718018|H1311V, Hus H (House H), Växjö|Våning 1, rum H1311V. Lärosal.;sv_SE;Floor 1, room H1311V. Classroom.;en_US
+0;56.854395666271216;14.829944372177124|H1312V, Hus H (House H), Växjö|Våning 1, rum H1312V. Lärosal.;sv_SE;Floor 1, room H1312V. Classroom.;en_US
+0;56.854463127399015;14.82993096113205|H1314V, Hus H (House H), Växjö|Våning 1, rum H1314V. Lärosal.;sv_SE;Floor 1, room H1314V. Classroom.;en_US
+0;56.854639112377235;14.830762445926666|H1411V, Hus H (House H), Växjö|Våning 1, rum H1411V. Lärosal.;sv_SE;Floor 1, room H1411V. Classroom.;en_US
+0;56.85470510653067;14.830746352672577|H1412V, Hus H (House H), Växjö|Våning 1, rum H1412V. Lärosal.;sv_SE;Floor 1, room H1412V. Classroom.;en_US
+0;56.854797;14.831248|H1454V, Hus H (House H), Växjö;Runda rummet, Hus H (House H), Växjö|Våning 1, rum H1454V. Konferensrum.;sv_SE;Floor 1, room H1454V. Conference room.;en_US
+0;56.85447339321213;14.830915331840515|H1509V, Hus H (House H), Växjö;Linné, Hus H (House H), Växjö|Våning 1, rum H1509V. Hörsal.;sv_SE;Floor 1, room H1509V. Lecture hall.;en_US
+0;56.85449392482994;14.831084311008453|H1510V, Hus H (House H), Växjö;Tegner, Hus H (House H), Växjö|Våning 1, rum H1510V. Hörsal.;sv_SE;Floor 1, room H1510V. Lecture hall.;en_US
+1;56.856504502256854;14.830234050750732|Hus J (House J), Växjö|Byggnad;sv_SE;Building;en_US
+0;56.85640184957167;14.830657839775085|J1036V, Hus J (House J), Växjö|Våning 1, rum J1036V. Lärosal.;sv_SE;Floor 1, room J1036V. Classroom.;en_US
+0;56.856454373562606;14.830044284462929|J0122V, Hus J (House J), Växjö;Idrottshall, Hus J (House J), Växjö;Gymnasium, Hus J (House J), Växjö|Våning 0, rum J0122V. Idrottshall.;sv_SE;Floor 0, room J0122V. Gymnasium.;en_US
+1;56.85369171681147;14.831210374832153|Hus K (House K), Växjö|Byggnad;sv_SE;Building;en_US
+0;56.8539776978768;14.830459356307983|K1009V, Hus K (House K), Växjö;Weber, Hus K (House K), Växjö|Våning 1, rum K1009V. Föreläsningssal.;sv_SE;Floor 1, room K1009V. Auditorium.;en_US
+0;56.853968898492006;14.830274283885956|K1010V, Hus K (House K), Växjö;Myrdahl, Hus K (House K), Växjö;Myrdal, Hus K (House K), Växjö|Våning 1, rum K1010V. Föreläsningssal.;sv_SE;Floor 1, room K1010V. Auditorium.;en_US
+0;56.853957165975714;14.830065071582794|K1011V, Hus K (House K), Växjö;Wicksell, Hus K (House K), Växjö;Wiksell, Hus K (House K), Växjö|Våning 1, rum K1011V. Föreläsningssal.;sv_SE;Floor 1, room K1011V. Auditorium.;en_US
+0;56.85365065268417;14.83127474784851|K1040V, Hus K (House K), Växjö|Våning 1, rum K1040V. Lärosal.;sv_SE;Floor 1, room K1040V. Classroom.;en_US
+0;56.853644786376606;14.831092357635498|K1043V, Hus K (House K), Växjö|Våning 1, rum K1043V. Lärosal.;sv_SE;Floor 1, room K1043V. Classroom.;en_US
+0;56.853633053758664;14.830893874168396|K1046V, Hus K (House K), Växjö|Våning 1, rum K1046V. Lärosal.;sv_SE;Floor 1, room K1046V. Classroom.;en_US
+0;56.85379437693259;14.830861687660217|K1051V, Hus K (House K), Växjö|Våning 1, rum K1051V. Lärosal.;sv_SE;Floor 1, room K1051V. Classroom.;en_US
+0;56.854119954310626;14.83079195022583|K1076V, Hus K (House K), Växjö|Våning 1, rum K1076V. Lärosal.;sv_SE;Floor 1, room K1076V. Classroom.;en_US
+0;56.854140486122375;14.831017255783081|K1081V, Hus K (House K), Växjö|Våning 1, rum K1081V. Lärosal.;sv_SE;Floor 1, room K1081V. Classroom.;en_US
+0;56.8541551516953;14.831151366233826|K1082V, Hus K (House K), Växjö|Våning 1, rum K1082V. Lärosal.;sv_SE;Floor 1, room K1082V. Classroom.;en_US
+0;56.85342893005957;14.83150340616703|K1210V, Hus K (House K), Växjö|Våning 1, rum K1210V. Grupprum.;sv_SE;Floor 1, room K1210V. Group room.;en_US
+0;56.853381999295074;14.830950871109962|K1254V, Hus K (House K), Växjö|Våning 1, rum K1254V. Lärosal.;sv_SE;Floor 1, room K1254V. Classroom.;en_US
+0;56.85336320253117;14.83155369758606|K1211V, Hus K (House K), Växjö|Våning 1, rum K1211V. Lärosal.;sv_SE;Floor 1, room K1211V. Classroom.;en_US
+0;56.8532810735104;14.831580519676208|K1212V, Hus K (House K), Växjö|Våning 1, rum K1212V. Lärosal.;sv_SE;Floor 1, room K1212V. Classroom.;en_US
+0;56.85320481068685;14.831601977348328|K1213V, Hus K (House K), Växjö|Våning 1, rum K1213V. Lärosal.;sv_SE;Floor 1, room K1213V. Classroom.;en_US
+0;56.8536132549576;14.830954223871231|K2048V, Hus K (House K), Växjö|Våning 2, rum K2048V. Arbetsrum.;sv_SE;Floor 2, room K2048V. Work room.;en_US
+0;56.85361178837933;14.830875098705292|K2049V, Hus K (House K), Växjö|Våning 2, rum K2049V. Arbetsrum.;sv_SE;Floor 2, room K2049V. Work room.;en_US
+0;56.85373644732745;14.83091801404953|K2054V, Hus K (House K), Växjö|Våning 2, rum K2054V. Lärosal.;sv_SE;Floor 2, room K2054V. Classroom.;en_US
+0;56.853884766488754;14.831093698740005|K2065V, Hus K (House K), Växjö|Våning 2, rum K2065V. Grupprum.;sv_SE;Floor 2, room K2065V. Group room.;en_US
+0;56.854051026003035;14.83081340789795|K2083V, Hus K (House K), Växjö|Våning 2, rum K2083V. Lärosal.;sv_SE;Floor 2, room K2083V. Classroom.;en_US
+0;56.853985030695895;14.830834865570068|K2084V, Hus K (House K), Växjö|Våning 2, rum K2084V. Lärosal.;sv_SE;Floor 2, room K2084V. Classroom.;en_US
+0;56.854169279522154;14.831166118383408|K2101V, Hus K (House K), Växjö|Våning 2, rum K2101V. Konferensrum.;sv_SE;Floor 2, room K2101V. Conference room.;en_US
+0;56.8538119757822;14.830706119537353|K1050V, Hus K (House K), Växjö|Våning 1, rum K1050V. Datasal.;sv_SE;Floor 1, room K1050V. Computer room.;en_US
+0;56.8539058361737;14.830620288848877|K1073V, Hus K (House K), Växjö|Våning 1, rum K1073V. Datasal.;sv_SE;Floor 1, room K1073V. Computer room.;en_US
+0;56.853976231312835;14.830609560012817|K1074V, Hus K (House K), Växjö|Våning 1, rum K1074V. Datasal.;sv_SE;Floor 1, room K1074V. Computer room.;en_US
+0;56.85384277374911;14.831001162528991|K1056V, Hus K (House K), Växjö|Våning 1, rum K1056V. Datasal.;sv_SE;Floor 1, room K1056V. Computer room.;en_US
+0;56.85385303973245;14.831113815307617|K1057V, Hus K (House K), Växjö|Våning 1, rum K1057V. Datasal.;sv_SE;Floor 1, room K1057V. Computer room.;en_US
+0;56.853740113760814;14.831355214118957|K1074V, Hus K (House K), Växjö|Våning 1, rum K1074V. Datasal.;sv_SE;Floor 1, room K1074V. Computer room.;en_US
+0;56.85359785588286;14.830990433692932|K1093V, Hus K (House K), Växjö|Våning 1, rum K1093V. Konferensrum.;sv_SE;Floor 1, room K1093V. Conference room.;en_US
+0;56.853800243216696;14.830915331840515|K2057V, Hus K (House K), Växjö|Våning 2, rum K2057V. Konferensrum.;sv_SE;Floor 2, room K2057V. Conference room.;en_US
+0;56.8538383740411;14.8310387134552|K2063V, Hus K (House K), Växjö|Våning 2, rum K2063V. Föreläsningssal.;sv_SE;Floor 2, room K2063V. Auditorium.;en_US
+0;56.85417275037525;14.831156730651855|K3115V, Hus K (House K), Växjö|Våning 3, rum K3115V. Konferensrum.;sv_SE;Floor 3, room K3115V. Conference room.;en_US
+0;56.853368;14.831315|K3207V, Hus K (House K), Växjö|Våning 3, rum K3207V. Konferensrum.;sv_SE;Floor 3, room K3207V. Conference room.;en_US
+1;56.85256830336642;14.832878708839417|Hus L (House L), Växjö|Byggnad;sv_SE;Building;en_US
+0;56.85260423551966;14.832955151796341|L110V, Hus L (House L), Växjö|Våning 1, rum L110V. Grupprum.;sv_SE;Floor 1, room L110V. Group room.;en_US
+0;56.852601302283944;14.832863956689835|L112V, Hus L (House L), Växjö|Våning 1, rum L112V. Grupprum.;sv_SE;Floor 1, room L112V. Group room.;en_US
+1;56.8541037244182;14.833157658577|Hus M (House M), Växjö|Byggnad;sv_SE;Building;en_US
+0;56.85399236351354;14.833002090454102|Entréhall, Hus M (House M), Växjö;Foajé, Hus M (House M), Växjö;Munch, Hus M (House M), Växjö|Våning 1, rum Entréhall. Hall.;sv_SE;Floor 1, room Entréhall. Hall.;en_US
+0;56.8542896836221;14.8324348032475|M1049V, Hus M (House M), Växjö|Våning 1, rum M1049V. Lärosal.;sv_SE;Floor 1, room M1049V. Classroom.;en_US
+0;56.8543028825853;14.8324938118458|M1050V, Hus M (House M), Växjö|Våning 1, rum M1050V. Lärosal.;sv_SE;Floor 1, room M1050V. Classroom.;en_US
+0;56.8543043491365;14.8326037824154|M1051V, Hus M (House M), Växjö|Våning 1, rum M1051V. Lärosal.;sv_SE;Floor 1, room M1051V. Classroom.;en_US
+0;56.8543248808471;14.83289077878|M1052V, Hus M (House M), Växjö|Våning 1, rum M1052V. Lärosal.;sv_SE;Floor 1, room M1052V. Classroom.;en_US
+0;56.854338079798;14.8330302536488|M1053V, Hus M (House M), Växjö|Våning 1, rum M1053V. Lärosal.;sv_SE;Floor 1, room M1053V. Classroom.;en_US
+0;56.8543395463478;14.8332180082798|M1054V, Hus M (House M), Växjö|Våning 1, rum M1054V. Lärosal.;sv_SE;Floor 1, room M1054V. Classroom.;en_US
+0;56.8543556783918;14.8333762586117|M1055V, Hus M (House M), Växjö|Våning 1, rum M1055V. Datasal.;sv_SE;Floor 1, room M1055V. Computer room.;en_US
+0;56.8541826251924;14.8329390585423|M1067V, Hus M (House M), Växjö|Våning 1, rum M1067V. Ritsal.;sv_SE;Floor 1, room M1067V. Drawing Room.;en_US
+0;56.8541532940624;14.8329336941242|M1071V, Hus M (House M), Växjö|Våning 1, rum M1071V. Datasal.;sv_SE;Floor 1, room M1071V. Computer room.;en_US
+0;56.8541738258558;14.8332743346691|M1076V, Hus M (House M), Växjö|Våning 1, rum M1076V. Datasal.;sv_SE;Floor 1, room M1076V. Computer room.;en_US
+0;56.8542075566349;14.8334218561649|M1078V, Hus M (House M), Växjö|Våning 1, rum M1078V. Datasal.;sv_SE;Floor 1, room M1078V. Computer room.;en_US
+0;56.8541488943908;14.833437949419|M1081V, Hus M (House M), Växjö|Våning 1, rum M1081V. Datasal.;sv_SE;Floor 1, room M1081V. Computer room.;en_US
+0;56.854143;14.832788|M2091V, Hus M (House M), Växjö;Karlavagnen, Hus M (House M), Växjö|Våning 2, rum M2091V. Lärosal.;sv_SE;Floor 2, room M2091V. Classroom.;en_US
+0;56.854105;14.832798|M2093V, Hus M (House M), Växjö|Våning 2, rum M2093V. Lärosal.;sv_SE;Floor 2, room M2093V. Classroom.;en_US
+0;56.8541078307653;14.8328505456448|M2094V, Hus M (House M), Växjö|Våning 2, rum M2094V. Grupprum.;sv_SE;Floor 2, room M2094V. Group room.;en_US
+0;56.85409942248758;14.832527339458466|M3027V, Hus M (House M), Växjö;Kinnarps, Hus M (House M), Växjö|Våning 3, rum M3027V. Grupprum.;sv_SE;Floor 3, room M3027V. Group room.;en_US
+0;56.85424021190494;14.832774102687836|M3082V, Hus M (House M), Växjö;Källemo, Hus M (House M), Växjö|Våning 3, rum M3082V. Konferensrum.;sv_SE;Floor 3, room M3082V. Conference room.;en_US
+0;56.853825;14.832873|M1083V, Hus M (House M), Växjö;Södra-salen, Hus M (House M), Växjö|Våning 1, rum M1083V. Föreläsningssal.;sv_SE;Floor 1, room M1083V. Auditorium.;en_US
+0;56.853879;14.832664|M1088V, Hus M (House M), Växjö;NCC-salen, Hus M (House M), Växjö|Våning 1, rum M1088V. Lärosal.;sv_SE;Floor 1, room M1088V. Classroom.;en_US
+1;56.8552886853432;14.8297244310379|UB, biblioteket (Library), Växjö|Byggnad;sv_SE;Building;en_US
+0;56.8553441194596;14.829473644495|UB3018V, UB, biblioteket (Library), Växjö|Våning 3, rum UB3018V. Konferensrum.;sv_SE;Floor 3, room UB3018V. Conference room.;en_US
+0;56.855379169032894;14.829567521810532|UB3003V, UB, biblioteket (Library), Växjö;Multimediasalen, UB, biblioteket (Library), Växjö|Våning 3, rum UB3003V. Föreläsningssal.;sv_SE;Floor 3, room UB3003V. Auditorium.;en_US
+1;56.853424799178406;14.832701683044434|Hus N (House N), Växjö|Byggnad;sv_SE;Building;en_US
+1;56.85348346255772;14.834375381469727|Hus V (House V), Växjö|Byggnad;sv_SE;Building;en_US
+1;56.850887520011554;14.833506345748901|Hus S (House S), Växjö|Byggnad;sv_SE;Building;en_US
+0;56.850948582947645;14.833550602197647|S132V, Hus S (House S), Växjö|Våning 1, rum S132V. Skrivsal.;sv_SE;Floor 1, room S132V. Exam room.;en_US
+0;56.850812718997645;14.833026230335236|S210V, Hus S (House S), Växjö|Våning 2, rum S210V. Skjutbana.;sv_SE;Floor 2, room S210V. Shooting range.;en_US
+1;56.852967221663235;14.827980995178223|Tufvan, Växjö|Byggnad;sv_SE;Building;en_US
+0;56.85299655372308;14.828241169452667|Studentkåren V, Tufvan, Växjö;Linnéstudenterna, Tufvan, Växjö|Våning 1, rum Studentkåren V. Reception.;sv_SE;Floor 1, room Studentkåren V. Reception.;en_US
+0;56.85336320253115;14.831242561340332||Våning 3, rum . Konferensrum.;sv_SE;Floor 3, room . Conference room.;en_US
+0;56.85540463740068;14.829381108283996||Våning 1, rum . Forskarsal.;sv_SE;Floor 1, room . Research room.;en_US
+0;56.855130399393936;14.829716384410858||Våning 1, rum . Grupprum.;sv_SE;Floor 1, room . Group room.;en_US
+0;56.855266785391855;14.829477667808532||Våning 1, rum . Grupprum.;sv_SE;Floor 1, room . Group room.;en_US
+0;56.855149464133206;14.829944372177124|UB0028V, UB, biblioteket (Library), Växjö;Alexandria, UB, biblioteket (Library), Växjö|Våning 0, rum UB0028V. Lärosal.;sv_SE;Floor 0, room UB0028V. Classroom.;en_US
+0;56.855145064578835;14.829861223697662||Våning 0, rum . Datasal.;sv_SE;Floor 0, room . Computer room.;en_US
+0;56.85540463740068;14.829477667808532||Våning 0, rum . Grupprum.;sv_SE;Floor 0, room . Group room.;en_US
+0;56.855350376564196;14.829595685005188||Våning 0, rum . Grupprum.;sv_SE;Floor 0, room . Group room.;en_US
+0;56.8551216002802;14.829619824886322||Våning 0, rum . Grupprum.;sv_SE;Floor 0, room . Group room.;en_US
+0;56.855683272888925;14.828377962112426|D0042V, Hus D (House D), Växjö|Våning 0, rum D0042V. Labbsal.;sv_SE;Floor 0, room D0042V. Lab room.;en_US
+0;56.85582698932958;14.828356504440307|D0043V, Hus D (House D), Växjö|Våning 0, rum D0043V. Föreläsningssal.;sv_SE;Floor 0, room D0043V. Auditorium.;en_US
+0;56.85585045318584;14.82879102230072|D0070V, Hus D (House D), Växjö|Våning 0, rum D0070V. Föreläsningssal.;sv_SE;Floor 0, room D0070V. Auditorium.;en_US
+0;56.85573899973756;14.828882217407226|D0069V, Hus D (House D), Växjö|Våning 0, rum D0069V. Datorsal .;sv_SE;Floor 0, room D0069V. Computer room.;en_US
+0;56.85547502971991;14.82828676700592|D0022V, Hus D (House D), Växjö|Våning 0, rum D0022V. Labbsal.;sv_SE;Floor 0, room D0022V. Lab room.;en_US
+0;56.85548089574055;14.828082919120788|D0023V, Hus D (House D), Växjö|Våning 0, rum D0023V. Labbsal.;sv_SE;Floor 0, room D0023V. Lab room.;en_US
+0;56.85558061795048;14.828270673751831|D0036V, Hus D (House D), Växjö|Våning 0, rum D0036V. Föreläsningssal.;sv_SE;Floor 0, room D0036V. Auditorium.;en_US
+0;56.85574486571682;14.828619360923767|D0073V, Hus D (House D), Växjö|Våning 0, rum D0073V. Föreläsningssal.;sv_SE;Floor 0, room D0073V. Auditorium.;en_US
+0;56.85575073169512;14.828195571899414|D1139V, Hus D (House D), Växjö|Våning 1, rum D1139V. Labbsal.;sv_SE;Floor 1, room D1139V. Lab room.;en_US
+0;56.855797659488566;14.828195571899414|D1140V, Hus D (House D), Växjö|Våning 1, rum D1140V. Föreläsningssal.;sv_SE;Floor 1, room D1140V. Auditorium.;en_US
+0;56.85551315883755;14.828823208808899|D1153V, Hus D (House D), Växjö|Våning 1, rum D1153V. Konferensrum.;sv_SE;Floor 1, room D1153V. Conference room.;en_US
+0;56.8556158139611;14.82880711555481|D1166V, Hus D (House D), Växjö|Våning 1, rum D1166V. Labbsal.;sv_SE;Floor 1, room D1166V. Lab room.;en_US
+0;56.855651009938626;14.82881247997284|D1167V, Hus D (House D), Växjö|Våning 1, rum D1167V. Labbsal.;sv_SE;Floor 1, room D1167V. Lab room.;en_US
+0;56.85573606674761;14.828882217407226|D1169V, Hus D  (House D), Växjö|Våning 1, rum D1169V. Labbsal.;sv_SE;Floor 1, room D1169V. Lab room.;en_US
+0;56.85584458722317;14.82878029346466|D1170V, Hus D (House D), Växjö|Våning 1, rum D1170V. Föreläsningssal.;sv_SE;Floor 1, room D1170V. Auditorium.;en_US
+0;56.85584458722317;14.828624725341796|D117BV, Hus D (House D), Växjö|Våning 1, rum D117BV. Grupprum.;sv_SE;Floor 1, room D117BV. Group room.;en_US
+0;56.85570966982759;14.828624725341796|D1172V, Hus D (House D), Växjö|Våning 1, rum D1172V. Datorsal .;sv_SE;Floor 1, room D1172V. Computer room.;en_US
+0;56.855800592473706;14.828206300735473|D2240V, Hus D (House D), Växjö|Våning 2, rum D2240V. Labbsal.;sv_SE;Floor 2, room D2240V. Lab room.;en_US
+0;56.85569207187055;14.828399419784546|D2242V, Hus D (House D), Växjö|Våning 2, rum D2242V. Föreläsningssal.;sv_SE;Floor 2, room D2242V. Auditorium.;en_US
+0;56.855501426805496;14.828415513038635|D2208V, Hus D (House D), Växjö|Våning 2, rum D2208V. Konferensrum.;sv_SE;Floor 2, room D2208V. Conference room.;en_US
+0;56.85547502971991;14.82829213142395|D2223V, Hus D  (House D), Växjö|Våning 2, rum D2223V. Grupprum.;sv_SE;Floor 2, room D2223V. Group room.;en_US
+0;56.855721401794334;14.828646183013916|D2272V, Hus D  (House D), Växjö|Våning 2, rum D2272V. Föreläsningssal.;sv_SE;Floor 2, room D2272V. Auditorium.;en_US
+0;56.85585045318584;14.828646183013916|D2273V, Hus D (House D), Växjö|Våning 2, rum D2273V. Föreläsningssal.;sv_SE;Floor 2, room D2273V. Auditorium.;en_US
+0;56.85573313375741;14.830453991889953|F103V, Hus F (House F), Växjö|Våning 1, rum F103V. Föreläsningssal.;sv_SE;Floor 1, room F103V. Auditorium.;en_US
+0;56.8559443084637;14.83052372932434|F110V, Hus F (House F), Växjö|Våning 1, rum F110V. Labbsal.;sv_SE;Floor 1, room F110V. Lab room.;en_US
+0;56.8559589733296;14.830732941627502|F112V, Hus F (House F), Växjö|Våning 1, rum F112V. Labbsal.;sv_SE;Floor 1, room F112V. Lab room.;en_US
+0;56.85591791169059;14.830899238586425|F116V, Hus F (House F), Växjö|Våning 1, rum F116V. Labbsal.;sv_SE;Floor 1, room F116V. Lab room.;en_US
+0;56.855301981697714;56.855301981697714|F128V, Hus F (House F), Växjö|Våning 1, rum F128V. Labbsal.;sv_SE;Floor 1, room F128V. Lab room.;en_US
+0;56.8557653966369;14.830373525619506|F213V, Hus F (House F), Växjö|Våning 2, rum F213V. Konferensrum.;sv_SE;Floor 2, room F213V. Conference room.;en_US
+0;56.85588564894263;14.830421805381775|F218V, Hus F (House F ), Växjö|Våning 2, rum F218V. Labbsal.;sv_SE;Floor 2, room F218V. Lab room.;en_US
+0;56.85595750684326;14.83053982257843|F219V, Hus F (House F), Växjö|Våning 2, rum F219V. Föreläsningssal.;sv_SE;Floor 2, room F219V. Auditorium.;en_US
+0;56.85580499195098;14.830724895000457|F221V, Hus F (House F), Växjö|Våning 2, rum F221V. Grupprum.;sv_SE;Floor 2, room F221V. Group room.;en_US
+0;56.855818190379686;14.830880463123321|F222V, Hus F (House F), Växjö|Våning 2, rum F222V. Grupprum.;sv_SE;Floor 2, room F222V. Group room.;en_US
+0;56.855953107383925;14.830708801746368|F223V, Hus F (House F), Växjö|Våning 2, rum F223V. Föreläsningssal.;sv_SE;Floor 2, room F223V. Auditorium.;en_US
+0;56.855923777641784;14.830891191959381|F227V, Hus F (House F), Växjö|Våning 2, rum F227V. Labbsal.;sv_SE;Floor 2, room F227V. Lab room.;en_US
+0;56.855895914365455;14.830896556377411|F228V, Hus F (House F), Växjö|Våning 2, rum F228V. Grupprum.;sv_SE;Floor 2, room F228V. Group room.;en_US
+0;56.855870984047996;14.8309126496315|F229V, Hus F (House F), Växjö|Våning 2, rum F229V. Grupprum.;sv_SE;Floor 2, room F229V. Group room.;en_US
+0;56.85566860791496;14.831076264381408|F237V, Hus F (House F), Växjö|Våning 2, rum F237V. Konferensrum.;sv_SE;Floor 2, room F237V. Conference room.;en_US
+0;56.85562754595728;14.830633699893951|F307V, Hus F (House F ), Växjö|Våning 3, rum F307V. Grupprum.;sv_SE;Floor 3, room F307V. Group room.;en_US
+0;56.85533717797046;14.832374453544616|G114V, Hus G (House G), Växjö|Våning 1, rum G114V. Konferensrum.;sv_SE;Floor 1, room G114V. Conference room.;en_US
+0;56.85543983357685;14.8322993516922|G118V, Hus G  (House G), Växjö|Våning 1, rum G118V. Konferensrum.;sv_SE;Floor 1, room G118V. Conference room.;en_US
+0;56.854037826950915;14.83078122138977|GalleriV, Hus K (House K), Växjö|Våning 1, rum GalleriV. Utställning.;sv_SE;Floor 1, room GalleriV. Exhibition.;en_US
+0;56.85684178766793;14.83004629611969|J0043V, Hus J (House J), Växjö|Våning 0, rum J0043V. Labbsal.;sv_SE;Floor 0, room J0043V. Lab room.;en_US
+0;56.856853519279696;14.830089211463928|J0044V, Hus J (House J), Växjö|Våning 0, rum J0044V. Labbsal.;sv_SE;Floor 0, room J0044V. Lab room.;en_US
+0;56.85685938508418;14.830180406570434|J0045V, Hus J (House J), Växjö|Våning 0, rum J0045V. Labbsal.;sv_SE;Floor 0, room J0045V. Lab room.;en_US
+0;56.856313861331614;14.830341339111328|J0124V, Hus J (House J), Växjö|Våning 0, rum J0124V. Föreläsningssal.;sv_SE;Floor 0, room J0124V. Auditorium.;en_US
+0;56.856437044809745;14.829391837120056|J0150V, Hus J (House J), Växjö|Våning 0, rum J0150V. Föreläsningssal.;sv_SE;Floor 0, room J0150V. Auditorium.;en_US
+0;56.85685938508418;14.830228686332702|J1104V, Hus J (House J), Växjö|Våning 1, rum J1104V. Konferensrum.;sv_SE;Floor 1, room J1104V. Conference room.;en_US
+0;56.856856452182065;14.830142855644226|J1102V, Hus J  (House J), Växjö|Våning 1, rum J1102V. Konferensrum.;sv_SE;Floor 1, room J1102V. Conference room.;en_US
+0;56.85670687386839;14.830008745193481|J1095V, Hus J (House J), Växjö|Våning 1, rum J1095V. Labbsal.;sv_SE;Floor 1, room J1095V. Lab room.;en_US
+0;56.85671567260929;14.83006238937378|J1092V, Hus J (House J), Växjö|Våning 1, rum J1092V. Labbsal.;sv_SE;Floor 1, room J1092V. Lab room.;en_US
+0;56.856718605522445;14.830116033554077|J1091V, Hus J (House J), Växjö|Våning 1, rum J1091V. Föreläsningssal.;sv_SE;Floor 1, room J1091V. Auditorium.;en_US
+0;56.8567244713481;14.830175042152404|J1087V, Hus J (House J), Växjö|Våning 1, rum J1087V. Föreläsningssal.;sv_SE;Floor 1, room J1087V. Auditorium.;en_US
+0;56.856733270084845;14.83030378818512|J1086V, Hus J (House J), Växjö|Våning 1, rum J1086V. Labbsal.;sv_SE;Floor 1, room J1086V. Lab room.;en_US
+0;56.856868183789196;14.830416440963745|J1105V, Hus J (House J), Växjö|Våning 1, rum J1105V. Grupprum.;sv_SE;Floor 1, room J1105V. Group room.;en_US
+0;56.856481038810784;14.830727577209472|J1034V, Hus J (House J), Växjö|Våning 0, rum J1034V. Föreläsningssal.;sv_SE;Floor 0, room J1034V. Auditorium.;en_US
+0;56.856346123710324;14.830732941627502|J1036V, Hus J  (House J), Växjö|Våning 0, rum J1036V. Föreläsningssal.;sv_SE;Floor 0, room J1036V. Auditorium.;en_US
+1;56.851790987114995;14.833120107650757|Hus P (House P), Växjö|Byggnad;sv_SE;Building;en_US
+0;56.85176752071292;14.83302354812622|P112aV, Hus P (House P), Växjö;Po112aV, Hus P (House P), Växjö|Våning 1, rum P112aV. Föreläsningssal.;sv_SE;Floor 1, room P112aV. Auditorium.;en_US
+0;56.85177045401398;14.833120107650756|P112bV, Hus P (House P), Växjö;Po112bV, Hus P (House P), Växjö|Våning 1, rum P112bV. Föreläsningssal.;sv_SE;Floor 1, room P112bV. Auditorium.;en_US
+0;56.85174992090169;14.83277142047882|P121V, Hus P (House P), Växjö;Po121V, Hus P (House P), Växjö|Våning 1, rum P121V. Föreläsningssal.;sv_SE;Floor 1, room P121V. Auditorium.;en_US
+0;56.8517792539158;14.832594394683838|P130V, Hus P (House P), Växjö;Po130V, Hus P (House P), Växjö|Våning 1, rum P130V. Föreläsningssal.;sv_SE;Floor 1, room P130V. Auditorium.;en_US
+0;56.851667788339895;14.832594394683838|P152V, Hus P (House P), Växjö;Po152V, Hus P (House P), Växjö|Våning 1, rum P152V. Föreläsningssal.;sv_SE;Floor 1, room P152V. Auditorium.;en_US
+0;56.85175872080835;14.832894802093505|P003V, Hus P (House P), Växjö;Po003V, Hus P (House P), Växjö|Våning 1, rum P003V. Föreläsningssal.;sv_SE;Floor 1, room P003V. Auditorium.;en_US
+0;56.85172645447386;14.832513928413391|P153V, Hus P (House P), Växjö;Po153V, Hus P (House P), Växjö|Våning 1, rum P153V. Föreläsningssal.;sv_SE;Floor 1, room P153V. Auditorium.;en_US
+0;56.85174992090169;14.832508563995361|P154V, Hus P (House P), Växjö;Po154V, Hus P (House P), Växjö|Våning 1, rum P154V. Föreläsningssal.;sv_SE;Floor 1, room P154V. Auditorium.;en_US
+0;56.85176165411009;14.832513928413391|P155V, Hus P (House P), Växjö;Po155V, Hus P (House P), Växjö|Våning 1, rum P155V. Föreläsningssal.;sv_SE;Floor 1, room P155V. Auditorium.;en_US
+0;56.851799787011984;14.832594394683838|P208V, Hus P (House P), Växjö;Po208V, Hus P (House P), Växjö|Våning 2, rum P208V. Föreläsningssal.;sv_SE;Floor 2, room P208V. Auditorium.;en_US
+0;56.85176165411009;14.833002090454101|P209V, Hus P (House P ), Växjö;Po209V, Hus P (House P ), Växjö|Våning 2, rum P209V. Föreläsningssal.;sv_SE;Floor 2, room P209V. Auditorium.;en_US
+0;56.85176458741161;14.832932353019714|P210V, Hus P (House P), Växjö;Po210V, Hus P (House P), Växjö|Våning 2 , rum P210V. Föreläsningssal.;sv_SE;Floor 2 , room P210V. Auditorium.;en_US
+0;56.851785120515856;14.833318591117858|P212V, Hus P (House P), Växjö;Po212V, Hus P (House P), Växjö|Våning 2, rum P212V. Föreläsningssal.;sv_SE;Floor 2, room P212V. Auditorium.;en_US
+0;56.851782187215946;14.833243489265442|P213V, Hus P (House P), Växjö;Po213V, Hus P (House P), Växjö|Våning 2, rum P213V. Föreläsningssal.;sv_SE;Floor 2, room P213V. Auditorium.;en_US
+0;56.851782187215946;14.833683371543884|P221V, Hus P (House P), Växjö;Po221V, Hus P (House P), Växjö|Våning 2, rum P221V. Föreläsningssal.;sv_SE;Floor 2, room P221V. Auditorium.;en_US
+0;56.85180272031052;14.832589030265808|P309V, Hus P  (House P), Växjö;Po309V, Hus P  (House P), Växjö|Våning 3, rum P309V. Föreläsningssal.;sv_SE;Floor 3, room P309V. Auditorium.;en_US
+0;56.85510546856637;14.829713702201843|UB0030V, UB, biblioteket (Library), Växjö|Våning 0, rum UB0030V. Datasal.;sv_SE;Floor 0, room UB0030V. Computer room.;en_US
+0;56.85512306679931;14.829633235931396|UB0034V, UB, biblioteket (Library), Växjö|Våning 0, rum UB0034V. Grupprum.;sv_SE;Floor 0, room UB0034V. Group room.;en_US
+0;56.85511133464492;14.829617142677307|UB0035V, UB, biblioteket (Library), Växjö|Våning 0, rum UB0035V. Grupprum.;sv_SE;Floor 0, room UB0035V. Group room.;en_US
+0;56.85511133464492;14.829638600349426|UB0036V, UB, biblioteket (Library), Växjö|Våning 0, rum UB0036V. Grupprum.;sv_SE;Floor 0, room UB0036V. Group room.;en_US
+0;56.85526385236486;14.829622507095337|UB0037V, UB, biblioteket (Library), Växjö|Våning 0, rum UB0037V. Grupprum.;sv_SE;Floor 0, room UB0037V. Group room.;en_US
+0;56.85529611564904;14.829622507095337|UB0038V, UB, biblioteket (Library), Växjö|Våning 0, rum UB0038V. Grupprum.;sv_SE;Floor 0, room UB0038V. Group room.;en_US
+0;56.85540463740068;14.829450845718383|UB0040V, UB, biblioteket (Library), Växjö|Våning 0, rum UB0040V. Grupprum.;sv_SE;Floor 0, room UB0040V. Group room.;en_US
+0;56.855413436447826;14.829499125480651|UB0041V, UB, biblioteket (Library), Växjö|Våning 0, rum UB0041V. Grupprum.;sv_SE;Floor 0, room UB0041V. Group room.;en_US
+0;56.855419302478104;14.82954740524292|UB0042V, UB, biblioteket (Library), Växjö|Våning 0, rum UB0042V. Grupprum.;sv_SE;Floor 0, room UB0042V. Group room.;en_US
+0;56.855425168507466;14.829617142677307|UB0043V, UB, biblioteket (Library), Växjö|Våning 0, rum UB0043V. Grupprum.;sv_SE;Floor 0, room UB0043V. Group room.;en_US
+0;56.85513773198711;14.829713702201843|UB1010V, UB, biblioteket (Library), Växjö|Våning 1, rum UB1010V. Grupprum.;sv_SE;Floor 1, room UB1010V. Group room.;en_US
+0;56.85514066502398;14.829692244529724|UB1011V, UB, biblioteket (Library), Växjö|Våning 1, rum UB1011V. Grupprum.;sv_SE;Floor 1, room UB1011V. Group room.;en_US
+0;56.855149464133206;14.829676151275634|UB1012V, UB, biblioteket (Library), Växjö|Våning 1, rum UB1012V. Grupprum.;sv_SE;Floor 1, room UB1012V. Group room.;en_US
+0;56.85516119627562;14.829654693603515|UB1013V, UB, biblioteket (Library), Växjö|Våning 1, rum UB1013V. Grupprum.;sv_SE;Floor 1, room UB1013V. Group room.;en_US
+0;56.85516999538001;14.829627871513366|UB1014V, UB, biblioteket (Library), Växjö|Våning 1, rum UB1014V. Grupprum.;sv_SE;Floor 1, room UB1014V. Group room.;en_US
+0;56.85528145052332;14.8295259475708|UB1019V, UB, biblioteket (Library), Växjö|Våning 1, rum UB1019V. Grupprum.;sv_SE;Floor 1, room UB1019V. Group room.;en_US
+0;56.855272651445134;14.8295259475708|UB1018V, UB, biblioteket (Library), Växjö|Våning 1, rum UB1018V. Grupprum.;sv_SE;Floor 1, room UB1018V. Group room.;en_US
+0;56.8552697184186;14.82954204082489|UB1017V, UB, biblioteket (Library), Växjö|Våning 1, rum UB1017V. Grupprum.;sv_SE;Floor 1, room UB1017V. Group room.;en_US
+0;56.85514653109703;14.829767346382141|UB2004V, UB, biblioteket (Library), Växjö|Våning 2, rum UB2004V. Grupprum.;sv_SE;Floor 2, room UB2004V. Group room.;en_US
+0;56.85515533020486;14.829729795455932|UB2005V, UB, biblioteket (Library), Växjö|Våning 2, rum UB2005V. Grupprum.;sv_SE;Floor 2, room UB2005V. Group room.;en_US
+0;56.855158263240355;14.829713702201843|UB2006V, UB, biblioteket (Library), Växjö|Våning 2, rum UB2006V. Grupprum.;sv_SE;Floor 2, room UB2006V. Group room.;en_US
+0;56.85516412931065;14.829697608947754|UB2007V, UB, biblioteket (Library), Växjö|Våning 2, rum UB2007V. Grupprum.;sv_SE;Floor 2, room UB2007V. Group room.;en_US
+0;56.85516412931065;14.829660058021545|UB2008V, UB, biblioteket (Library), Växjö|Våning 2, rum UB2008V. Grupprum.;sv_SE;Floor 2, room UB2008V. Group room.;en_US
+0;56.85513186591266;14.82953131198883|UB2010V, UB, biblioteket (Library), Växjö|Våning 2, rum UB2010V. Grupprum.;sv_SE;Floor 2, room UB2010V. Group room.;en_US
+0;56.8551509306512;14.82953131198883|UB2011V, UB, biblioteket (Library), Växjö|Våning 2, rum UB2011V. Grupprum.;sv_SE;Floor 2, room UB2011V. Group room.;en_US
+0;56.85517732796543;14.829528629779815|UB2012V, UB, biblioteket (Library), Växjö|Våning 2, rum UB2012V. Grupprum.;sv_SE;Floor 2, room UB2012V. Group room.;en_US
+0;56.8552623858513;14.829504489898681|UB2013V, UB, biblioteket (Library), Växjö|Våning 2, rum UB2013V. Grupprum.;sv_SE;Floor 2, room UB2013V. Group room.;en_US
+0;56.85527998401042;14.829501807689666|UB2014V, UB, biblioteket (Library), Växjö|Våning 2, rum UB2014V. Grupprum.;sv_SE;Floor 2, room UB2014V. Group room.;en_US
+0;56.85530638123361;14.829504489898681|UB2015V, UB, biblioteket (Library), Växjö|Våning 2, rum UB2015V. Grupprum.;sv_SE;Floor 2, room UB2015V. Group room.;en_US
+0;56.855149464133206;14.83003556728363|UB3008V, UB, biblioteket (Library), Växjö|Våning 3, rum UB3008V. Labbsal.;sv_SE;Floor 3, room UB3008V. Lab room.;en_US
+0;56.85516559582808;14.829461574554443|UB3014V, UB, biblioteket (Library), Växjö|Våning 3, rum UB3014V. Grupprum.;sv_SE;Floor 3, room UB3014V. Group room.;en_US
+0;56.85518906009911;14.829456210136413|UB3015V, UB, biblioteket (Library), Växjö|Våning 3, rum UB3015V. Grupprum.;sv_SE;Floor 3, room UB3015V. Group room.;en_US
+0;56.85521399087097;14.829453527927398|UB3016V, UB, biblioteket (Library), Växjö|Våning 3, rum UB3016V. Grupprum.;sv_SE;Floor 3, room UB3016V. Group room.;en_US
+0;56.85524625419816;14.829450845718383|UB3017V, UB, biblioteket (Library), Växjö|Våning 3, rum UB3017V. Grupprum.;sv_SE;Floor 3, room UB3017V. Group room.;en_US
+0;56.85541050343233;14.829469621181488|UB3022V, UB, biblioteket (Library), Växjö|Våning 3, rum UB3022V. Konferensrum.;sv_SE;Floor 3, room UB3022V. Conference room.;en_US
+0;56.85411115495926;14.833924770355224|M0057aV, Hus M (House M), Växjö|Våning 0, rum M0057aV. Labbsal .;sv_SE;Floor 0, room M0057aV. Lab room.;en_US
+0;56.85387650482665;14.833334684371948|M0071aV, Hus M (House M), Växjö|Våning 0, rum M0071aV. Grupprum.;sv_SE;Floor 0, room M0071aV. Group room.;en_US
+0;56.8538794379624;14.833318591117858|M0071bV, Hus M (House M), Växjö|Våning 0, rum M0071bV. Grupprum.;sv_SE;Floor 0, room M0071bV. Group room.;en_US
+0;56.85385010659464;14.8333078622818|M0071dV, Hus M (House M), Växjö|Våning 0, rum M0071dV. Labbsal .;sv_SE;Floor 0, room M0071dV. Lab room.;en_US
+0;56.85675086755214;14.830384254455566|J0029V, Hus J (House J), Växjö|Våning 0, rum J0029V. Metodövning.;sv_SE;Floor 0, room J0029V. Method exercise.;en_US
+0;56.85674500173063;14.830271601676941|J0030V, Hus J (House J), Växjö|Våning 0, rum J0030V. Metodövning.;sv_SE;Floor 0, room J0030V. Method exercise.;en_US
+0;56.85675086755214;14.830137491226196|J0032V, Hus J (House J), Växjö|Våning 0, rum J0032V. Metodövning.;sv_SE;Floor 0, room J0032V. Method exercise.;en_US
+0;56.85672153843537;14.829944372177124|J0035V, Hus J (House J), Växjö|Våning 0, rum J0035V. Labbsal .;sv_SE;Floor 0, room J0035V. Lab room.;en_US
+0;56.85380610949992;14.833672642707824|M1099V, Hus M (House M), Växjö|Våning 1, rum M1099V. Atelje.;sv_SE;Floor 1, room M1099V. Studio.;en_US
+0;56.85379144379018;14.833838939666748|M1103V, Hus M (House M), Växjö|Våning 1, rum M1103V. Atelje.;sv_SE;Floor 1, room M1103V. Studio.;en_US
+0;56.85378851064753;14.833897948265075|M1104V, Hus M (House M), Växjö|Våning 1, rum M1104V. Fotostudio.;sv_SE;Floor 1, room M1104V. Photo studio.;en_US
+0;56.85405835880773;14.832261800765991|M2020V, Hus M (House M), Växjö|Våning 2, rum M2020V. Konferensrum.;sv_SE;Floor 2, room M2020V. Conference room.;en_US
+0;56.85426660986174;14.833232760429382|M2075V, Hus M (House M), Växjö|Våning 2, rum M2075V. Grupprum.;sv_SE;Floor 2, room M2075V. Group room.;en_US
+0;56.8552315890529;14.828624725341796|B3032V, Hus B (House B), Växjö|Våning 3, rum B3032V. Grupprum.;sv_SE;Floor 3, room B3032V. Group room.;en_US
+0;56.85519052661557;14.828667640686035|B3033V, Hus B (House B), Växjö|Våning 3, rum B3033V. Konferensrum.;sv_SE;Floor 3, room B3033V. Conference room.;en_US
+0;56.85516706234546;14.828635454177856|B3037V, Hus B (House B), Växjö|Våning 3, rum B3037V. Konferensrum.;sv_SE;Floor 3, room B3037V. Conference room.;en_US
+0;56.85570380384281;14.827723503112793|C1002V, Hus C (House C), Växjö|Våning 1, rum C1002V. Föreläsningssal.;sv_SE;Floor 1, room C1002V. Auditorium.;en_US
+0;56.85575073169512;14.828104376792907|C2303V, Hus C (House), Växjö|Våning 2, rum C2303V. Föreläsningssal.;sv_SE;Floor 2, room C2303V. Auditorium.;en_US
+0;56.85333680393701;14.83286663889885|N1027, Hus N (House N), Växjö|Våning 1, rum N1027. Grupprum.;sv_SE;Floor 1, room N1027. Grouproom.;en_US
+0;56.85336173594308;14.832862615585327|N1028, Hus N (House N), Växjö|Våning 1, rum N1028. Grupprum.;sv_SE;Floor 1, room N1028. Grouproom.;en_US
+0;56.85349519522255;14.832758009433746|N1030, Hus N (House N), Växjö|Våning 1, rum N1030. Föreläsningssal.;sv_SE;Floor 1, room N1030. Auditorium.;en_US
+0;56.853530393194966;14.832629263401031|N1037, Hus N (House N), Växjö|Våning 1, rum N1037. Föreläsningssal.;sv_SE;Floor 1, room N1037. Auditorium.;en_US
+0;56.85350106155358;14.832229614257812|N1051, Hus N (House N), Växjö|Våning 1, rum N1051. Föreläsningssal.;sv_SE;Floor 1, room N1051. Auditorium.;en_US
+0;56.853493728639656;14.832135736942291|N1052, Hus N (House N), Växjö|Våning 1, rum N1052. Föreläsningssal.;sv_SE;Floor 1, room N1052. Auditorium.;en_US
+0;56.85352452686852;14.833222031593322|N1008A, Hus N (House N), Växjö|Våning 1, rum N1008A. Hörsal.;sv_SE;Floor 1, room N1008A. Lecture Hall.;en_US
+0;56.853498128388196;14.832237660884857|N2050, Hus N (House N), Växjö|Våning 2, rum N2050. Föreläsningssal.;sv_SE;Floor 2, room N2050. Auditorium.;en_US
+0;56.853493728639656;14.83216792345047|N2052, Hus N (House N), Växjö|Våning 2, rum N2052. Grupprum.;sv_SE;Floor 2, room N2052. Grouproom.;en_US
+0;56.85351866054118;14.832631945610046|N2037, Hus N (House N), Växjö|Våning 2, rum N2037. Föreläsningssal.;sv_SE;Floor 2, room N2037. Auditorium.;en_US
+0;56.853337;14.832085|IT Helpdesk, Hus N (House N), Växjö;IT Servicedesk, Hus N (House N), Växjö;IT-support, Hus N (House N), Växjö|Våning 1, rum IT Helpdesk. Reception.;sv_SE;Floor 1, room IT Helpdesk. Reception.;en_US
+1;56.66802499396498;16.349244117736816|Arena, Kalmar|Byggnad;sv_SE;Building;en_US
+0;56.66789529539871;16.348777413368225|142, Arena, Kalmar;Arena1k, Arena, Kalmar|Våning 1, rum 142. Lärosal.;sv_SE;Floor 1, room 142. Classroom.;en_US
+0;56.667951301652536;16.348836421966552|Arena2k, Arena, Kalmar;Tornet, Arena, Kalmar|Våning 2, rum Arena2k. Lärosal.;sv_SE;Floor 2, room Arena2k. Classroom.;en_US
+1;56.66459077908399;16.348348259925842|Bruunska, Kalmar|Byggnad;sv_SE;Building;en_US
+0;56.66461141478609;16.34829193353653|1.05K, Bruunska, Kalmar;Bruunska 12K, Bruunska, Kalmar|Våning 1, rum 1.05K. Konferensrum.;sv_SE;Floor 1, room 1.05K. Conference room.;en_US
+0;56.664554666578105;16.348289251327515|2.02K, Bruunska, Kalmar;Bruunska 6K, Bruunska, Kalmar|Våning 2, rum 2.02K. Konferensrum.;sv_SE;Floor 2, room 2.02K. Conference room.;en_US
+0;56.66465047519131;16.348399221897125|2.06K, Bruunska, Kalmar;Bruunska 4K, Bruunska, Kalmar|Våning 2, rum 2.06K. Konferensrum.;sv_SE;Floor 2, room 2.06K. Conference room.;en_US
+0;56.664576776279674;16.34844481945038|2.10K, Bruunska, Kalmar;Bruunska 8K, Bruunska, Kalmar|Våning 2, rum 2.10K. Konferensrum.;sv_SE;Floor 2, room 2.10K. Conference room.;en_US
+0;56.66460257091513;16.348236948251724|1.04K, Bruunska, Kalmar;Bruunska 16K, Bruunska, Kalmar|Våning 1, rum 1.04K. Konferensrum.;sv_SE;Floor 1, room 1.04K. Conference room.;en_US
+0;56.66461436274263;16.348295956850052|2.04K, Bruunska, Kalmar;Bruunska 24K, Bruunska, Kalmar|Våning 2, rum 2.04K. Konferensrum.;sv_SE;Floor 2, room 2.04K. Conference room.;en_US
+1;56.66366805685551;16.348702311515808|Drama, Kalmar|Byggnad;sv_SE;Building;en_US
+1;56.665920284804024;16.34868621826172|Falken, Kalmar|Byggnad;sv_SE;Building;en_US
+0;56.6657434131337;16.348793506622314|247K, Falken, Kalmar;Grytet K, Falken, Kalmar|Våning 2, rum 247K. Konferensrum.;sv_SE;Floor 2, room 247K. Conference room.;en_US
+0;56.66586574946086;16.348723769187927|252K, Falken, Kalmar;Nästet K, Falken, Kalmar|Våning 2, rum 252K. Byggnad.;sv_SE;Floor 2, room 252K. Building.;en_US
+0;56.66611189484341;16.348573565483093|306K, Falken, Kalmar;C305K, Falken, Kalmar;Hörsalen, Falken, Kalmar|Våning 3, rum 306K. Hörsal.;sv_SE;Floor 3, room 306K. Lecture hall.;en_US
+0;56.666004298556615;16.348777413368225|310K, Falken, Kalmar;Redet K, Falken, Kalmar|Våning 3, rum 310K. Konferensrum.;sv_SE;Floor 3, room 310K. Conference room.;en_US
+0;56.66578615719677;16.34880155324936|336K, Falken, Kalmar;Holken K, Falken, Kalmar|Våning 3, rum 336K. Konferensrum.;sv_SE;Floor 3, room 336K. Conference room.;en_US
+1;56.67862634189581;16.359200477600097|G-Huset, Kalmar|Byggnad;sv_SE;Building;en_US
+0;56.67855856404858;16.359087824821472|G109AK, G-Huset, Kalmar;Ny150K, G-Huset, Kalmar|Våning 1, rum G109AK. Konferensrum.;sv_SE;Floor 1, room G109AK. Conference room.;en_US
+0;56.67876484407393;16.359238028526306|G123AK, G-Huset, Kalmar;Ny151K, G-Huset, Kalmar|Våning 1, rum G123AK. Videoredigering.;sv_SE;Floor 1, room G123AK. Video editing.;en_US
+0;56.67877073777236;16.35916292667389|G123CK, G-Huset, Kalmar;Ny156K, G-Huset, Kalmar|Våning 1, rum G123CK. Videoredigering.;sv_SE;Floor 1, room G123CK. Video editing.;en_US
+0;56.678788418862034;16.359195113182068|G123DK, G-Huset, Kalmar;Ny157K, G-Huset, Kalmar|Våning 1, rum G123DK. Videoredigering.;sv_SE;Floor 1, room G123DK. Video editing.;en_US
+0;56.67882083417161;16.35916829109192|G123EK, G-Huset, Kalmar;Ny159K, G-Huset, Kalmar|Våning 1, rum G123EK. Videoredigering.;sv_SE;Floor 1, room G123EK. Video editing.;en_US
+0;56.67881494048104;16.359195113182068|G123FK, G-Huset, Kalmar;Ny158K, G-Huset, Kalmar|Våning 1, rum G123FK. Videoredigering.;sv_SE;Floor 1, room G123FK. Video editing.;en_US
+0;56.678850302610634;16.359195113182068|G123HK, G-Huset, Kalmar;Ny161K, G-Huset, Kalmar|Våning 1, rum G123HK. Videoredigering.;sv_SE;Floor 1, room G123HK. Video editing.;en_US
+0;56.678841462081344;16.35916292667389|G124K, G-Huset, Kalmar;Ny160K, G-Huset, Kalmar|Våning 1, rum G124K. Videoredigering.;sv_SE;Floor 1, room G124K. Video editing.;en_US
+0;56.678859143137835;16.35917365550995|G125K, G-Huset, Kalmar;Ny160K, G-Huset, Kalmar|Våning 1, rum G125K. Videoredigering.;sv_SE;Floor 1, room G125K. Video editing.;en_US
+0;56.678885664707025;16.35917901992798|G126K, G-Huset, Kalmar;Ny162K, G-Huset, Kalmar|Våning 1, rum G126K. Videoredigering.;sv_SE;Floor 1, room G126K. Video editing.;en_US
+0;56.678817887326424;16.359082460403442|G128K, G-Huset, Kalmar;Ny155K, G-Huset, Kalmar|Våning 1, rum G128K. Videoredigering.;sv_SE;Floor 1, room G128K. Video editing.;en_US
+0;56.67877663146982;16.359093189239502|G129K, G-Huset, Kalmar;Ny154K, G-Huset, Kalmar|Våning 1, rum G129K. Videoredigering.;sv_SE;Floor 1, room G129K. Video editing.;en_US
+0;56.678700013330555;16.359082460403442|G130AK, G-Huset, Kalmar;Ny152K, G-Huset, Kalmar|Våning 1, rum G130AK. Videoredigering.;sv_SE;Floor 1, room G130AK. Video editing.;en_US
+0;56.67875600352459;16.35910391807556|G130BK, G-Huset, Kalmar;Ny153K, G-Huset, Kalmar|Våning 1, rum G130BK. Videoredigering.;sv_SE;Floor 1, room G130BK. Video editing.;en_US
+0;56.67863812933506;16.359307765960693|G219AK, G-Huset, Kalmar;Ny252K, G-Huset, Kalmar|Våning 2, rum G219AK. Grupprum.;sv_SE;Floor 2, room G219AK. Group room.;en_US
+0;56.678661704202476;16.359302401542663|G221K, G-Huset, Kalmar;Ny253K, G-Huset, Kalmar|Våning 2, rum G221K. Grupprum.;sv_SE;Floor 2, room G221K. Group room.;en_US
+0;56.678717694453454;16.359264850616455|G222K, G-Huset, Kalmar;Ny254K, G-Huset, Kalmar|Våning 2, rum G222K. Grupprum.;sv_SE;Floor 2, room G222K. Group room.;en_US
+0;56.678753056674346;16.359254121780395|G223K, G-Huset, Kalmar;Ny255K, G-Huset, Kalmar|Våning 2, rum G223K. Grupprum.;sv_SE;Floor 2, room G223K. Group room.;en_US
+0;56.67879725940379;16.359227299690246|G224K, G-Huset, Kalmar;Ny258K, G-Huset, Kalmar|Våning 2, rum G224K. Grupprum.;sv_SE;Floor 2, room G224K. Group room.;en_US
+0;56.678850302610634;16.359205842018127|G225K, G-Huset, Kalmar;Ny261K, G-Huset, Kalmar|Våning 2, rum G225K. Radioredigering.;sv_SE;Floor 2, room G225K. Radio editing.;en_US
+0;56.678885664707025;16.35917901992798|G226K, G-Huset, Kalmar;Ny262K, G-Huset, Kalmar|Våning 2, rum G226K. Radioredigering.;sv_SE;Floor 2, room G226K. Radio editing.;en_US
+0;56.67884735576777;16.35915756225586|G227K, G-Huset, Kalmar;Ny260K, G-Huset, Kalmar|Våning 2, rum G227K. Radioredigering.;sv_SE;Floor 2, room G227K. Radio editing.;en_US
+0;56.678817887326424;16.35916292667389|G228AK, G-Huset, Kalmar;Ny259K, G-Huset, Kalmar|Våning 2, rum G228AK. Grupprum.;sv_SE;Floor 2, room G228AK. Group room.;en_US
+0;56.67877957831824;16.35915219783783|G229K, G-Huset, Kalmar;Ny257K, G-Huset, Kalmar|Våning 2, rum G229K. Grupprum.;sv_SE;Floor 2, room G229K. Group room.;en_US
+0;56.67875895037461;16.35918438434601|G230K, G-Huset, Kalmar;Ny256K, G-Huset, Kalmar|Våning 2, rum G230K. Grupprum.;sv_SE;Floor 2, room G230K. Group room.;en_US
+0;56.67897996346845;16.35912537574768|G238K, G-Huset, Kalmar;Ny263K, G-Huset, Kalmar|Våning 2, rum G238K. Radiostudio.;sv_SE;Floor 2, room G238K. Radio studio.;en_US
+0;56.67903005958944;16.359093189239502|G239K, G-Huset, Kalmar;Ny264K, G-Huset, Kalmar|Våning 2, rum G239K. Radiostudio.;sv_SE;Floor 2, room G239K. Radio studio.;en_US
+0;56.67908899611707;16.358991265296936|G239BK, G-Huset, Kalmar;Ny265K, G-Huset, Kalmar|Våning 2, rum G239BK. Radiostudio.;sv_SE;Floor 2, room G239BK. Radio studio.;en_US
+1;56.678655810486994;16.357816457748413|Kalmar Nyckel A, Kalmar|Byggnad;sv_SE;Building;en_US
+0;56.679109623879945;16.358191967010498|A33:23K, Kalmar Nyckel A, Kalmar;Ny331K, Kalmar Nyckel A, Kalmar|Våning 2, rum A33:23K. Konferensrum.;sv_SE;Floor 2, room A33:23K. Conference room.;en_US
+0;56.67865875734485;16.357218325138092|A43:23K, Kalmar Nyckel A, Kalmar;Ny401K, Kalmar Nyckel A, Kalmar|Våning 3, rum A43:23K. Konferensrum.;sv_SE;Floor 3, room A43:23K. Conference room.;en_US
+0;56.67909488976477;16.357499957084655|A12:11DK, Kalmar Nyckel A, Kalmar;Ny100K, Kalmar Nyckel A, Kalmar|Våning 0, rum A12:11DK. Datasal.;sv_SE;Floor 0, room A12:11DK. Computer room.;en_US
+0;56.67911551752441;16.357526779174804|A12:11EK, Kalmar Nyckel A, Kalmar;Ny101K, Kalmar Nyckel A, Kalmar|Våning 0, rum A12:11EK. Datasal.;sv_SE;Floor 0, room A12:11EK. Computer room.;en_US
+0;56.679127304810564;16.357580423355102|A12:13K, Kalmar Nyckel A, Kalmar;Ny102K, Kalmar Nyckel A, Kalmar|Våning 0, rum A12:13K. Föreläsningssal.;sv_SE;Floor 0, room A12:13K. Auditorium.;en_US
+0;56.67914793255247;16.357773542404175|A13:11CK, Kalmar Nyckel A, Kalmar;Ny103K, Kalmar Nyckel A, Kalmar|Våning 0, rum A13:11CK. Grupprum.;sv_SE;Floor 0, room A13:11CK. Group room.;en_US
+0;56.67914498573288;16.357939839363098|A13:13K, Kalmar Nyckel A, Kalmar;Ny105K, Kalmar Nyckel A, Kalmar|Våning 0, rum A13:13K. Föreläsningssal.;sv_SE;Floor 0, room A13:13K. Auditorium.;en_US
+0;56.67914793255247;16.357945203781128|A13:15K, Kalmar Nyckel A, Kalmar;Ny106K, Kalmar Nyckel A, Kalmar|Våning 0, rum A13:15K. Test lab.;sv_SE;Floor 0, room A13:15K. Teaching lab.;en_US
+0;56.67914793255247;16.357955932617187|A13:15BK, Kalmar Nyckel A, Kalmar;Ny107K, Kalmar Nyckel A, Kalmar|Våning 0, rum A13:15BK. Datasal.;sv_SE;Floor 0, room A13:15BK. Computer room.;en_US
+0;56.67913909209305;16.357998847961426|A13:15CK, Kalmar Nyckel A, Kalmar;Ny108K, Kalmar Nyckel A, Kalmar|Våning 0, rum A13:15CK. Datasal.;sv_SE;Floor 0, room A13:15CK. Computer room.;en_US
+0;56.6791420389131;16.358009576797485|A13:17K, Kalmar Nyckel A, Kalmar;Ny109K, Kalmar Nyckel A, Kalmar|Våning 0 , rum A13:17K. Datasal.;sv_SE;Floor 0 , room A13:17K. Computer room.;en_US
+0;56.678882717866934;16.35864794254303|A14:11K, Kalmar Nyckel A, Kalmar;Ny110K, Kalmar Nyckel A, Kalmar|Våning 0, rum A14:11K. Lärosal.;sv_SE;Floor 0, room A14:11K. Classroom.;en_US
+0;56.67886208997979;16.35866940021515|A14:11BK, Kalmar Nyckel A, Kalmar;Ny111K, Kalmar Nyckel A, Kalmar|Våning 0, rum A14:11BK. Lärosal.;sv_SE;Floor 0, room A14:11BK. Classroom.;en_US
+0;56.67880315309713;16.358706951141357|A14:11CK, Kalmar Nyckel A, Kalmar;Ny112K, Kalmar Nyckel A, Kalmar|Våning 0, rum A14:11CK. Datasal.;sv_SE;Floor 0, room A14:11CK. Computer room.;en_US
+0;56.67877663146982;16.358723044395447|A14:11EK, Kalmar Nyckel A, Kalmar;Ny113K, Kalmar Nyckel A, Kalmar|Våning 0, rum A14:11EK. Datasal.;sv_SE;Floor 0, room A14:11EK. Computer room.;en_US
+0;56.678567404644284;16.357247829437256|A21:20K, Kalmar Nyckel A, Kalmar;NY200K, Kalmar Nyckel A, Kalmar|Våning 1, rum A21:20K. Föreläsningssal.;sv_SE;Floor 1, room A21:20K. Auditorium.;en_US
+0;56.67873242871619;16.356971561908722|A21:23K, Kalmar Nyckel A, Kalmar;NY202K, Kalmar Nyckel A, Kalmar|Våning 1, rum A21:23K. Datasal.;sv_SE;Floor 1, room A21:23K. Computer room.;en_US
+0;56.67871622102687;16.35717809200287|A21:30K, Kalmar Nyckel A, Kalmar;NY203K, Kalmar Nyckel A, Kalmar|Våning 1, rum A21:30K. Lärosal.;sv_SE;Floor 1, room A21:30K. Classroom.;en_US
+0;56.67892986728083;16.35711908340454|A22:13K, Kalmar Nyckel A, Kalmar;NY204K, Kalmar Nyckel A, Kalmar|Våning 1, rum A22:13K. Lärosal.;sv_SE;Floor 1, room A22:13K. Classroom.;en_US
+0;56.678856196295655;16.357274651527405|A22:14K, Kalmar Nyckel A, Kalmar;NY207K, Kalmar Nyckel A, Kalmar|Våning 1, rum A22:14K. Lärosal.;sv_SE;Floor 1, room A22:14K. Classroom.;en_US
+0;56.678945338169406;16.357381939888|A22:20K, Kalmar Nyckel A, Kalmar;NY209K, Kalmar Nyckel A, Kalmar|Våning 1, rum A22:20K. Läsrum.;sv_SE;Floor 1, room A22:20K. Classroom.;en_US
+0;56.679003538121925;16.357656866312027|A22:30CK, Kalmar Nyckel A, Kalmar;NY214K, Kalmar Nyckel A, Kalmar|Våning 1, rum A22:30CK. Datasal.;sv_SE;Floor 1, room A22:30CK. Computer room.;en_US
+0;56.678876824186034;16.358347535133362|A23:30AK, Kalmar Nyckel A, Kalmar;Ny219K, Kalmar Nyckel A, Kalmar|Våning 1, rum A23:30AK. Föreläsningssal.;sv_SE;Floor 1, room A23:30AK. Auditorium.;en_US
+0;56.67912435798937;16.358031034469604|A23:13K, Kalmar Nyckel A, Kalmar;Ny216K, Kalmar Nyckel A, Kalmar|Våning 1, rum A23:13K. Klassrum.;sv_SE;Floor 1, room A23:13K. Classroom.;en_US
+0;56.67898291030094;16.358503103256225|A23:17K, Kalmar Nyckel A, Kalmar;Ny217K, Kalmar Nyckel A, Kalmar|Våning 1, rum A23:17K. Datasal.;sv_SE;Floor 1, room A23:17K. Computer room.;en_US
+0;56.678968176136195;16.358540654182434|A23:19K, Kalmar Nyckel A, Kalmar;Ny218K, Kalmar Nyckel A, Kalmar|Våning 1, rum A23:19K. Datasal.;sv_SE;Floor 1, room A23:19K. Computer room.;en_US
+0;56.67897112296959;16.358513832092285|A23:21K, Kalmar Nyckel A, Kalmar;Ny220K, Kalmar Nyckel A, Kalmar|Våning 1, rum A23:21K. Föreläsningssal.;sv_SE;Floor 1, room A23:21K. Auditorium.;en_US
+0;56.678962282468674;16.358572840690613|A23:23K, Kalmar Nyckel A, Kalmar;Ny221K, Kalmar Nyckel A, Kalmar|Våning 1, rum A23:23K. Datasal.;sv_SE;Floor 1, room A23:23K. Computer room.;en_US
+0;56.67892102677024;16.35861039161682|A23:27K, Kalmar Nyckel A, Kalmar;Ny222bK, Kalmar Nyckel A, Kalmar|Våning 1, rum A23:27K. Grupprum.;sv_SE;Floor 1, room A23:27K. Group room.;en_US
+0;56.67863518247558;16.358771324157715|A24:19BK, Kalmar Nyckel A, Kalmar;Ny228K, Kalmar Nyckel A, Kalmar|Våning 1, rum A24:19BK. Nätverkslabb.;sv_SE;Floor 1, room A24:19BK. Network lab.;en_US
+0;56.67867643848711;16.358524560928344|A24:20K, Kalmar Nyckel A, Kalmar;Ny224K, Kalmar Nyckel A, Kalmar|Våning 2, rum A24:20K. Lärosal.;sv_SE;Floor 2, room A24:20K. Classroom.;en_US
+0;56.67859982014403;16.3587686419487|A24:21K, Kalmar Nyckel A, Kalmar;Ny225K, Kalmar Nyckel A, Kalmar|Våning 2, rum A24:21K. Grupprum.;sv_SE;Floor 2, room A24:21K. Group room.;en_US
+0;56.67861750131395;16.358760595321655|A24:21K, Kalmar Nyckel A, Kalmar;Ny229K, Kalmar Nyckel A, Kalmar|Våning 1, rum A24:21K. Preprum.;sv_SE;Floor 1, room A24:21K. Preproom.;en_US
+0;56.67863665590534;16.35848432779312|A24:22K, Kalmar Nyckel A, Kalmar;Ny226K, Kalmar Nyckel A, Kalmar|Våning 2, rum A24:22K. Grupprum.;sv_SE;Floor 2, room A24:22K. Group room.;en_US
+0;56.67859982014403;16.358749866485595|A24:23K, Kalmar Nyckel A, Kalmar;NY230K, Kalmar Nyckel A, Kalmar|Våning 1, rum A24:23K. Service rum.;sv_SE;Floor 1, room A24:23K. Service room.;en_US
+0;56.67862339503544;16.358487010002136|A24:30K, Kalmar Nyckel A, Kalmar;Ny227K, Kalmar Nyckel A, Kalmar|Våning 1, rum A24:30K. Föreläsningssal.;sv_SE;Floor 1, room A24:30K. Auditorium.;en_US
+0;56.67854382971784;16.358733773231506|A25:13aK, Kalmar Nyckel A, Kalmar;Ny231K, Kalmar Nyckel A, Kalmar|Våning 1, rum A25:13aK. Grupprum.;sv_SE;Floor 1, room A25:13aK. Group room.;en_US
+0;56.67839795953242;16.35732427239418|A26:38K, Kalmar Nyckel A, Kalmar;NY299K, Kalmar Nyckel A, Kalmar|Våning 1, rum A26:38K. Konferensrum.;sv_SE;Floor 1, room A26:38K. Conference room.;en_US
+0;56.6787913657095;16.35712042450905|A31:24K, Kalmar Nyckel A, Kalmar;NY400K, Kalmar Nyckel A, Kalmar|Våning 2, rum A31:24K. Grupprum.;sv_SE;Floor 2, room A31:24K. Group room.;en_US
+0;56.67884367221386;16.357021182775497|A31:31K, Kalmar Nyckel A, Kalmar;NY300K, Kalmar Nyckel A, Kalmar|Våning 2, rum A31:31K. Konferensrum.;sv_SE;Floor 2, room A31:31K. Conference room.;en_US
+1;56.67875600352459;16.35916829109192|Kalmar Nyckel G, Kalmar|Byggnad;sv_SE;Building;en_US
+1;56.6591219197733;16.3623547554016|Kocken A, Kalmar|Byggnad;sv_SE;Building;en_US
+0;56.65896270659175;16.36240839958191|A107K, Kocken A, Kalmar|Våning 1, rum A107K. Undervisningslab.;sv_SE;Floor 1, room A107K. Teaching lab.;en_US
+0;56.65906000361594;16.362368166446686|A113K, Kocken A, Kalmar|Våning 1, rum A113K. Undervisningslab.;sv_SE;Floor 1, room A113K. Teaching lab.;en_US
+0;56.65927228716064;16.362263560295105|A137K, Kocken A, Kalmar|Våning 1, rum A137K. Föreläsningssal.;sv_SE;Floor 1, room A137K. Auditorium.;en_US
+0;56.65902757130246;16.36250764131546|A204K, Kocken A, Kalmar|Våning 2, rum A204K. Föreläsningssal.;sv_SE;Floor 2, room A204K. Auditorium.;en_US
+0;56.658993664763074;16.362314522266388|A205K, Kocken A, Kalmar|Våning 2, rum A205K. Föreläsningssal.;sv_SE;Floor 2, room A205K. Auditorium.;en_US
+0;56.65908801331878;16.362346708774566|A211K, Kocken A, Kalmar|Våning 2, rum A211K. Forskar labb.;sv_SE;Floor 2, room A211K. Research lab.;en_US
+0;56.65917793906614;16.36215627193451|A218K, Kocken A, Kalmar|Våning 2, rum A218K. Forskar labb.;sv_SE;Floor 2, room A218K. Research lab.;en_US
+0;56.6592995596127;16.3622246682644|A222K, Kocken A, Kalmar;Muséet, Kocken A, Kalmar|Våning 2, rum A222K. Datasal.;sv_SE;Floor 2, room A222K. Computer room.;en_US
+0;56.65899513896106;16.362319886684418|A308K, Kocken A, Kalmar|Våning 3, rum A308K. Arbetsrum.;sv_SE;Floor 3, room A308K. Work room.;en_US
+0;56.65908359073551;16.362333297729492|A310K, Kocken A, Kalmar|Våning 3, rum A310K. Forskar labb.;sv_SE;Floor 3, room A310K. Research lab.;en_US
+0;56.65916761972897;16.362175047397613|A318K, Kocken A, Kalmar|Våning 3, rum A318K. Forskar labb.;sv_SE;Floor 3, room A318K. Research lab.;en_US
+0;56.65906737459238;16.362590789794922|A403K, Kocken A, Kalmar;Månen, Kocken A, Kalmar|Våning 4, rum A403K. Byggnad.;sv_SE;Floor 4, room A403K. Building.;en_US
+1;56.65936663501896;16.36150985956192|Kocken B, Kalmar|Byggnad;sv_SE;Building;en_US
+1;56.65968358312641;16.36087417602539|Kocken C, Kalmar|Byggnad;sv_SE;Building;en_US
+1;56.65934009970769;16.362837553024292|KSL, Kalmar|Byggnad;sv_SE;Building;en_US
+1;56.65934009970769;16.362837553024292|Eldaren, Kalmar|Byggnad;sv_SE;Building;en_US
+1;56.65934009970769;16.362837553024292|Kalmarsundslaboratoriet, Kalmar|Byggnad;sv_SE;Building;en_US
+0;56.65936810920239;16.362483501434326|211K, Kalmarsundslaboratoriet, Kalmar|Våning 1, rum 211K. Flödescytometerrum.;sv_SE;Floor 1, room 211K. Flow cytometer room.;en_US
+0;56.65940054122289;16.36247009038925|213K, Kalmarsundslaboratoriet, Kalmar|Våning 1, rum 213K. Microbiologi lab.;sv_SE;Floor 1, room 213K. Micro Biology lab.;en_US
+0;56.65938137685052;16.362515687942505|214K, Kalmarsundslaboratoriet, Kalmar|Våning 1, rum 214K. Instrument lab.;sv_SE;Floor 1, room 214K. Instrument lab.;en_US
+0;56.65933420296931;16.36260151863098|215K, Kalmarsundslaboratoriet, Kalmar|Våning 1, rum 215K. Kemiskt analyslab.;sv_SE;Floor 1, room 215K. Chemical analysis lab.;en_US
+0;56.65943739575776;16.362537145614624|223K, Kalmarsundslaboratoriet, Kalmar|Våning 1, rum 223K. Forskningslab.;sv_SE;Floor 1, room 223K. Research lab.;en_US
+0;56.65946540518016;16.36259615421295|239K, Kalmarsundslaboratoriet, Kalmar|Våning 2, rum 239K. Mottagningslab.;sv_SE;Floor 2, room 239K. Receive lab.;en_US
+0;56.65949931129523;16.36266052722931|240K, Kalmarsundslaboratoriet, Kalmar|Våning 2, rum 240K. Sorterings lab.;sv_SE;Floor 2, room 240K. Sorting lab.;en_US
+0;56.659469827718645;16.362711489200592|241K, Kalmarsundslaboratoriet, Kalmar|Våning 2, rum 241K. Undervisnings lab.;sv_SE;Floor 2, room 241K. Teaching lab.;en_US
+0;56.65912044558026;16.363073587417602|256K, Kalmarsundslaboratoriet, Kalmar|Våning 1, rum 256K. Forskningslab.;sv_SE;Floor 1, room 256K. Research lab.;en_US
+0;56.659192680971486;16.363245248794555|332K, Kalmarsundslaboratoriet, Kalmar|Våning 1, rum 332K. Föreläsningssal.;sv_SE;Floor 1, room 332K. Auditorium.;en_US
+1;56.66518331403448;16.349166333675385|Nisbethska, Kalmar|Byggnad;sv_SE;Building;en_US
+0;56.66513614741453;16.34930580854416|113K, Nisbethska, Kalmar|Våning 1, rum 113K. Lärosal.;sv_SE;Floor 1, room 113K. Classroom.;en_US
+0;56.66523932431899;16.34925216436386|119K, Nisbethska, Kalmar|Våning 1, rum 119K. Grupprum.;sv_SE;Floor 1, room 119K. Group room.;en_US
+0;56.66531007403307;16.349034905433655|124K, Nisbethska, Kalmar|Våning 1, rum 124K. Lärosal.;sv_SE;Floor 1, room 124K. Classroom.;en_US
+0;56.66528649080981;16.348973214626312|E125K, Nisbethska, Kalmar|Våning 1, rum E125K. Lärosal.;sv_SE;Floor 1, room E125K. Classroom.;en_US
+0;56.665287964761696;16.348916888237|125, Nisbethska, Kalmar|Våning 1, rum 125. Lärosal.;sv_SE;Floor 1, room 125. Classroom.;en_US
+0;56.66502412645553;16.349101960659027|E205K, Nisbethska, Kalmar|Våning 2, rum E205K. Arbetsrum.;sv_SE;Floor 2, room E205K. Work room.;en_US
+0;56.66499906909018;16.34893834590912|E208K, Nisbethska, Kalmar|Våning 2, rum E208K. Arbetsrum.;sv_SE;Floor 2, room E208K. Work room.;en_US
+0;56.66515236094678;16.34931117296219|305K, Nisbethska, Kalmar|Våning 3, rum 305K. Lärosal.;sv_SE;Floor 3, room 305K. Classroom.;en_US
+0;56.665214267096744;16.34927898645401|306K, Nisbethska, Kalmar|Våning 3, rum 306K. Lärosal.;sv_SE;Floor 3, room 306K. Classroom.;en_US
+0;56.665329235391134;16.349203884601593|308K, Nisbethska, Kalmar|Våning 3, rum 308K. Grupprum.;sv_SE;Floor 3, room 308K. Group room.;en_US
+0;56.665276173144974;16.348935663700103|310K, Nisbethska, Kalmar|Våning 3, rum 310K. Lärosal.;sv_SE;Floor 3, room 310K. Classroom.;en_US
+0;56.66502412645553;16.348983943462372|312K, Nisbethska, Kalmar;Aula, Nisbethska, Kalmar|Våning 3, rum 312K. Hörsal.;sv_SE;Floor 3, room 312K. Lecture hall.;en_US
+0;56.6651508869896;16.34931117296219|408K, Nisbethska, Kalmar|Våning 4, rum 408K. Lärosal.;sv_SE;Floor 4, room 408K. Classroom.;en_US
+0;56.665215741051455;16.349281668663025|409K, Nisbethska, Kalmar|Våning 4, rum 409K. Lärosal.;sv_SE;Floor 4, room 409K. Classroom.;en_US
+0;56.665279121049515;16.348941028118133|414K, Nisbethska, Kalmar|Våning 4, rum 414K. Lärosal.;sv_SE;Floor 4, room 414K. Classroom.;en_US
+0;56.66505802757036;16.349364817142486|506K, Nisbethska, Kalmar|Våning 5, rum 506K. Konferensrum.;sv_SE;Floor 5, room 506K. Conference room.;en_US
+0;56.66501823060638;16.349013447761535|Info avdelning, Nisbethska, Kalmar|Våning 1, rum Info avdelning. Reception.;sv_SE;Floor 1, room Info avdelning. Reception.;en_US
+1;56.668994771369015;16.35136306285858|Norrgård, Kalmar|Byggnad;sv_SE;Building;en_US
+0;56.6689859285267;16.35141670703888|101K, Norrgård, Kalmar;Pelarhallen, Norrgård, Kalmar|Våning 1, rum 101K. Entrehall.;sv_SE;Floor 1, room 101K. Entrance hall .;en_US
+0;56.669187839575244;16.351338922977447|120AK, Norrgård, Kalmar;Forskarlabb, Norrgård, Kalmar|Våning 1, rum 120AK. Laboratorium.;sv_SE;Floor 1, room 120AK. Laboratory.;en_US
+0;56.668862128516636;16.35128527879715|137K, Norrgård, Kalmar;Labservice, Norrgård, Kalmar|Våning 1, rum 137K. Servicerum.;sv_SE;Floor 1, room 137K. Service room.;en_US
+0;56.6688414951421;16.35119140148163|144K, Norrgård, Kalmar|Våning 1, rum 144K. Föreläsningssal.;sv_SE;Floor 1, room 144K. Auditorium.;en_US
+0;56.66869116592931;16.351041197776794|148K, Norrgård, Kalmar|Våning 1, rum 148K. Grupprum.;sv_SE;Floor 1, room 148K. Group room.;en_US
+0;56.66892845000118;16.351019740104675|157K, Norrgård, Kalmar|Våning 1, rum 157K. Lärosal.;sv_SE;Floor 1, room 157K. Class room.;en_US
+0;56.66898003329735;16.351003646850586|158K, Norrgård, Kalmar|Våning 1, rum 158K. Lärosal.;sv_SE;Floor 1, room 158K. Class room.;en_US
+0;56.66905224979336;16.351210176944732|166K, Norrgård, Kalmar;Biologilabb, Norrgård, Kalmar|Våning 1, rum 166K. Laboratorium.;sv_SE;Floor 1, room 166K. Teaching lab.;en_US
+0;56.66906404022855;16.351250410079956|167K, Norrgård, Kalmar|Våning 1, rum 167K. Datasal.;sv_SE;Floor 1, room 167K. Computer room.;en_US
+0;56.669115623339096;16.3510063290596|170K, Norrgård, Kalmar|Våning 1, rum 170K. Forskarlabb.;sv_SE;Floor 1, room 170K. Research lab.;en_US
+0;56.668858443986295;16.351756006479263|204K, Norrgård, Kalmar;Biokemilabb, Norrgård, Kalmar|Våning 2, rum 204K. Föreläsningssal.;sv_SE;Floor 2, room 204K. Auditorium.;en_US
+0;56.668812018873126;16.351545453071594|208K, Norrgård, Kalmar|Våning 2, rum 208K. Undervisningslab.;sv_SE;Floor 2, room 208K. Teaching lab.;en_US
+0;56.66916573257888;16.351577639579773|218K, Norrgård, Kalmar|Våning 2, rum 218K. Lärosal.;sv_SE;Floor 2, room 218K. Class room.;en_US
+0;56.66924237011081;16.351462304592132|219K, Norrgård, Kalmar|Våning 2, rum 219K. Undervisningslab.;sv_SE;Floor 2, room 219K. Teaching lab.;en_US
+0;56.66917899677825;16.351336240768432|224K, Norrgård, Kalmar|Våning 2, rum 224K. Undervisningslab.;sv_SE;Floor 2, room 224K. Teaching lab.;en_US
+0;56.66917162777917;16.3511860370636|235K, Norrgård, Kalmar|Våning 2, rum 235K. Forskarlabb.;sv_SE;Floor 2, room 235K. Research lab.;en_US
+0;56.669124466150954;16.35111629962921|236K, Norrgård, Kalmar|Våning 2, rum 236K. Forskarlabb.;sv_SE;Floor 2, room 236K. Research lab.;en_US
+0;56.66909499010335;16.351025104522705|237K, Norrgård, Kalmar|Våning 2, rum 237K. Forskarlabb.;sv_SE;Floor 2, room 237K. Research lab.;en_US
+0;56.66910383292005;16.35086953639984|243K, Norrgård, Kalmar|Våning 2, rum 243K. Forskarlabb.;sv_SE;Floor 2, room 243K. Research lab.;en_US
+0;56.66904193315954;16.35092318058014|244K, Norrgård, Kalmar|Våning 2, rum 244K. Forskarlabb.;sv_SE;Floor 2, room 244K. Research lab.;en_US
+0;56.66894466190188;16.350966095924377|245K, Norrgård, Kalmar|Våning 2, rum 245K. Forskarlabb.;sv_SE;Floor 2, room 245K. Research lab.;en_US
+0;56.66883117845059;16.350979506969452|247K, Norrgård, Kalmar|Våning 2, rum 247K. Forskarlabb.;sv_SE;Floor 2, room 247K. Research lab.;en_US
+0;56.668794333100685;16.351314783096313|260K, Norrgård, Kalmar|Våning 2, rum 260K. Forskarlabb.;sv_SE;Floor 2, room 260K. Research lab.;en_US
+0;56.668717694657495;16.351025104522705|333K, Norrgård, Kalmar|Våning 3, rum 333K. Undervisningslab.;sv_SE;Floor 3, room 333K. Teaching lab.;en_US
+0;56.66883117845059;16.350979506969452|340K, Norrgård, Kalmar|Våning 3, rum 340K. Undervisningslab.;sv_SE;Floor 3, room 340K. Teaching lab.;en_US
+0;56.66888423569114;16.351014375686645|341K, Norrgård, Kalmar|Våning 3, rum 341K. Undervisningslab.;sv_SE;Floor 3, room 341K. Teaching lab.;en_US
+0;56.66903603793897;16.35086953639984|343K, Norrgård, Kalmar|Våning 3, rum 343K. Undervisningslab.;sv_SE;Floor 3, room 343K. Teaching lab.;en_US
+0;56.66910825432763;16.350805163383484|347K, Norrgård, Kalmar|Våning 3, rum 347K. Undervisningslab.;sv_SE;Floor 3, room 347K. Teaching lab.;en_US
+1;56.66407488285892;16.348755955696106|Rostad, Kalmar|Byggnad;sv_SE;Building;en_US
+1;56.66913036135771;16.346063017845154|Storken, Kalmar|Byggnad;sv_SE;Building;en_US
+0;56.66879285928592;16.346103250980377|Hälsomottagning, Storken, Kalmar|Våning 1, rum Hälsomottagning. Byggnad.;sv_SE;Floor 1, room Hälsomottagning. Building.;en_US
+0;56.66918636577587;16.345601677894592|V1103K, Storken, Kalmar|Våning 1, rum V1103K. Konferensrum.;sv_SE;Floor 1, room V1103K. Conference room.;en_US
+0;56.66920699896159;16.345607042312622|V1109K, Storken, Kalmar|Våning 1, rum V1109K. Lärosal.;sv_SE;Floor 1, room V1109K. Classroom.;en_US
+0;56.669215841752;16.34586989879608|V1114K, Storken, Kalmar|Våning 1, rum V1114K. Grupprum.;sv_SE;Floor 1, room V1114K. Group room.;en_US
+0;56.66922173694448;16.34590744972229|V1115K, Storken, Kalmar|Våning 1, rum V1115K. Grupprum.;sv_SE;Floor 1, room V1115K. Group room.;en_US
+0;56.66891813333349;16.345794796943664|V111K, Storken, Kalmar|Våning 1, rum V111K. Lärosal.;sv_SE;Floor 1, room V111K. Classroom.;en_US
+0;56.66899182375516;16.345719695091247|V112K, Storken, Kalmar|Våning 1, rum V112K. Lärosal.;sv_SE;Floor 1, room V112K. Classroom.;en_US
+0;56.66934258818662;16.34641170501709|V1131K, Storken, Kalmar|Våning 1, rum V1131K. Lärosal.;sv_SE;Floor 1, room V1131K. Classroom.;en_US
+0;56.66909204249733;16.345971822738647|V119K, Storken, Kalmar|Våning 1, rum V119K. Grupprum.;sv_SE;Floor 1, room V119K. Group room.;en_US
+0;56.669218789348356;16.34555071592331|V1202K, Storken, Kalmar|Våning 2, rum V1202K. Grupprum.;sv_SE;Floor 2, room V1202K. Group room.;en_US
+0;56.669251212892924;16.34550780057907|V1203K, Storken, Kalmar|Våning 2, rum V1203K. Grupprum.;sv_SE;Floor 2, room V1203K. Group room.;en_US
+0;56.66924237011081;16.345548033714294|V1204K, Storken, Kalmar|Våning 2, rum V1204K. Grupprum.;sv_SE;Floor 2, room V1204K. Group room.;en_US
+0;56.66882970463727;16.346250772476196|V153K, Storken, Kalmar|Våning 1, rum V153K. Föreläsningssal.;sv_SE;Floor 1, room V153K. Auditorium.;en_US
+0;56.66883559989015;16.346363425254822|V155K, Storken, Kalmar;V156K, Storken, Kalmar|Våning 1, rum V155K. Grupprum.;sv_SE;Floor 1, room V155K. Group room.;en_US
+0;56.66883265226382;16.346347332000732|V156K, Storken, Kalmar|Våning 1, rum V156K. Grupprum.;sv_SE;Floor 1, room V156K. Group room.;en_US
+0;56.66928658400064;16.345526576042175|V2103K, Storken, Kalmar|Våning 2, rum V2103K. Lärosal.;sv_SE;Floor 2, room V2103K. Classroom.;en_US
+1;56.6655886497412;16.3480880856514|UB, biblioteket (Library), Kalmar|Byggnad;sv_SE;Building;en_US
+0;56.665632130949;16.3482154905796|265K, UB, biblioteket (Library), Kalmar|Våning 2, rum 265K. Läsrum.;sv_SE;Floor 2, room 265K. Reading room.;en_US
+0;56.665506845977;16.3482637703419|275K, UB, biblioteket (Library), Kalmar|Våning 2, rum 275K. Läsrum.;sv_SE;Floor 2, room 275K. Reading room.;en_US
+0;56.665378612692;16.3482087850571|296AK, UB, biblioteket (Library), Kalmar|Våning 2, rum 296AK. Lärosal.;sv_SE;Floor 2, room 296AK. Classroom.;en_US
+0;56.6653830345366;16.3483200967312|296BK, UB, biblioteket (Library), Kalmar|Våning 2, rum 296BK. Lärosal.;sv_SE;Floor 2, room 296BK. Classroom.;en_US
+0;56.6653557664862;16.3485038280487|297K, UB, biblioteket (Library), Kalmar|Våning 2, rum 297K. Datasal.;sv_SE;Floor 2, room 297K. Computer room.;en_US
+0;56.6653137589104;16.3482624292374|298K, UB, biblioteket (Library), Kalmar|Våning 2, rum 298K. Arbetsrum.;sv_SE;Floor 2, room 298K. Work room.;en_US
+0;56.6653041782287;16.3481993973255|298BK, UB, biblioteket (Library), Kalmar|Våning 2, rum 298BK. Läsrum.;sv_SE;Floor 2, room 298BK. Reading room.;en_US
+0;56.66594091977816;16.34781450033188|Studentkåren, UB, biblioteket (Library), Kalmar;Linnéstudenterna, UB, biblioteket (Library), Kalmar|Våning 1, rum Studentkåren. Reception.;sv_SE;Floor 1, room Studentkåren. Reception.;en_US
+1;56.670055897378695;16.3778418302536|Varvsholmen, Kalmar|Byggnad;sv_SE;Building;en_US
+1;56.66881791412876;16.35011851787567|Västergård, Kalmar|Byggnad;sv_SE;Building;en_US
+0;56.668786964026374;16.350713968276978|N2007K, Västergård, Kalmar;Studio 1, Västergård, Kalmar;A2008K, Västergård, Kalmar|Våning 2, rum N2007K. Hörsal.;sv_SE;Floor 2, room N2007K. Lecture hall.;en_US
+0;56.668756013898566;16.350472569465637|B1003K, Västergård, Kalmar;CNaS, Västergård, Kalmar|Våning 1, rum B1003K. Grupprum.;sv_SE;Floor 1, room B1003K. Group room.;en_US
+0;56.66878549021135;16.35044574737549|B1004K, Västergård, Kalmar|Våning 1, rum B1004K. Grupprum.;sv_SE;Floor 1, room B1004K. Group room.;en_US
+0;56.668812018873126;16.35041356086731|B1006K, Västergård, Kalmar|Våning 1, rum B1006K. Konferensrum.;sv_SE;Floor 1, room B1006K. Conference room.;en_US
+0;56.66873832809985;16.350354552268982|B1011K, Västergård, Kalmar;N1011K, Västergård, Kalmar|Våning 1, rum B1011K. Skrivsal.;sv_SE;Floor 1, room B1011K. Exam room.;en_US
+0;56.668664637182424;16.35040283203125|B1012K, Västergård, Kalmar;N1012K, Västergård, Kalmar|Våning 1, rum B1012K. Skrivsal.;sv_SE;Floor 1, room B1012K. Exam room.;en_US
+0;56.66861747491965;16.35015070438385|B1013K, Västergård, Kalmar;N1013K, Västergård, Kalmar|Våning 1, rum B1013K. Skrivsal.;sv_SE;Floor 1, room B1013K. Exam room.;en_US
+0;56.668593893766136;16.350048780441284|B1015K, Västergård, Kalmar;N1015K, Västergård, Kalmar|Våning 1, rum B1015K. Skrivsal.;sv_SE;Floor 1, room B1015K. Exam room.;en_US
+0;56.668812;16.349834|B1024K, Västergård, Kalmar;Studio 2, Västergård, Kalmar|Våning 1, rum B1024K. Distansstudio.;sv_SE;Floor 1, room B1024K. Distance studio.;en_US
+0;56.668753066266035;16.349979043006897|B1033K, Västergård, Kalmar|Våning 1, rum B1033K. Undersöknings optik.;sv_SE;Floor 1, room B1033K. IP optics.;en_US
+0;56.668779594950635;16.349989771842956|B1034K, Västergård, Kalmar|Våning 1, rum B1034K. Undersöknings optik.;sv_SE;Floor 1, room B1034K. IP optics.;en_US
+0;56.668711799386166;16.350070238113403|B1035K, Västergård, Kalmar|Våning 1, rum B1035K. Undersöknings optik.;sv_SE;Floor 1, room B1035K. IP optics.;en_US
+0;56.66878843784137;16.350086331367492|B1036K, Västergård, Kalmar|Våning 1, rum B1036K. Undersöknings optik.;sv_SE;Floor 1, room B1036K. IP optics.;en_US
+0;56.668753066266035;16.35015606880188|B1037K, Västergård, Kalmar|Våning 1, rum B1037K. Undersöknings optik.;sv_SE;Floor 1, room B1037K. IP optics.;en_US
+0;56.66883854751622;16.35012924671173|B1038K, Västergård, Kalmar|Våning 1, rum B1038K. Undersöknings optik.;sv_SE;Floor 1, room B1038K. IP optics.;en_US
+0;56.668794333100685;16.35016679763794|B1039K, Västergård, Kalmar|Våning 1, rum B1039K. Undersöknings optik.;sv_SE;Floor 1, room B1039K. IP optics.;en_US
+0;56.66879138547113;16.35015070438385|B1041K, Västergård, Kalmar|Våning 1, rum B1041K. Undersöknings optik.;sv_SE;Floor 1, room B1041K. IP optics.;en_US
+0;56.66880022835909;16.35017216205597|B1042K, Västergård, Kalmar|Våning 1, rum B1042K. Undersöknings optik.;sv_SE;Floor 1, room B1042K. IP optics.;en_US
+0;56.66878549021135;16.350204348564148|B1043K, Västergård, Kalmar|Våning 1, rum B1043K. Undersöknings optik.;sv_SE;Floor 1, room B1043K. IP optics.;en_US
+0;56.668773699689;16.350177526474|B1043AK, Västergård, Kalmar|Våning 1, rum B1043AK. Undersöknings optik.;sv_SE;Floor 1, room B1043AK. IP optics.;en_US
+0;56.66883854751622;16.35015070438385|B1054K, Västergård, Kalmar|Våning 1, rum B1054K. Undersöknings optik.;sv_SE;Floor 1, room B1054K. IP optics.;en_US
+0;56.668732432831746;16.350000500679016|B2032K, Västergård, Kalmar;N2032K, Västergård, Kalmar;Studio 3, Västergård, Kalmar|Våning 2, rum B2032K. Distansstudio.;sv_SE;Floor 2, room B2032K. Distance studio.;en_US
+0;56.668664637182424;16.350048780441284|B2033K, Västergård, Kalmar;IT Helpdesk, Västergård, Kalmar;IT Servicedesk, Västergård, Kalmar|Våning 2, rum B2033K. Reception.;sv_SE;Floor 2, room B2033K. Reception.;en_US
+0;56.66878549021135;16.350105106830597|N2034K, Västergård, Kalmar;B2034K, Västergård, Kalmar|Våning 2, rum N2034K. Lärosal.;sv_SE;Floor 2, room N2034K. Classroom.;en_US
+0;56.66867348010013;16.35016143321991|N2035K, Västergård, Kalmar;B2035K, Västergård, Kalmar|Våning 2, rum N2035K. Skrivsal.;sv_SE;Floor 2, room N2035K. Exam room.;en_US
+0;56.66867790155822;16.350327730178833|N2037K, Västergård, Kalmar;B2037K, Västergård, Kalmar|Våning 2, rum N2037K. Skrivsal.;sv_SE;Floor 2, room N2037K. Exam room.;en_US
+0;56.66880022835909;16.35028749704361|N2039K, Västergård, Kalmar;B2039K, Västergård, Kalmar|Våning 2, rum N2039K. Lärosal.;sv_SE;Floor 2, room N2039K. Classroom.;en_US
+0;56.6690463545744;16.350190937519073|N2042K, Västergård, Kalmar;B2042K, Västergård, Kalmar|Våning 2, rum N2042K. Konferensrum.;sv_SE;Floor 2, room N2042K. Conference room.;en_US
+0;56.66905814501141;16.350180208683014|N2045K, Västergård, Kalmar;B2045K, Västergård, Kalmar|Våning 2, rum N2045K. Grupprum.;sv_SE;Floor 2, room N2045K. Group room.;en_US
+1;56.732346;15.923844|Campus Pukeberg, Pukeberg|Byggnad;sv_SE;Building;en_US
+1;56.73218865661962;15.922968685626984|Klockmagasinet, Pukeberg|Byggnad;sv_SE;Building;en_US
+0;56.732131;15.923092|111, Klockmagasinet, Pukeberg;K1, Klockmagasinet, Pukeberg|Våning 1, rum 111. Föreläsningssal.;sv_SE;Floor 1, room 111. Lecture hall.;en_US
+0;56.732265;15.922947|110, Klockmagasinet, Pukeberg;K2, Klockmagasinet, Pukeberg|Våning 1, rum 110. Föreläsningssal.;sv_SE;Floor 1, room 110. Lecture hall.;en_US
+0;56.732112;15.922996|102, Klockmagasinet, Pukeberg;Datasal, Klockmagasinet, Pukeberg|Våning 1, rum 102. Datasal.;sv_SE;Floor 1, room 102. Computer room.;en_US
+0;56.732265;15.922947|Datasal, Klockmagasinet, Pukeberg|Våning 2, rum Datasal. Datasal.;sv_SE;Floor 2, room Datasal. Computer room.;en_US
+1;56.73253588990475;15.92366337776184|Sliperiet, Pukeberg|Byggnad;sv_SE;Building;en_US
+0;56.732405;15.923701|021, Sliperiet, Pukeberg;Sliperiet, Sliperiet, Pukeberg|Våning 1, rum 021. Föreläsningssal.;sv_SE;Floor 1, room 021. Lecture hall.;en_US
+0;56.732346;15.923765|022, Sliperiet, Pukeberg;Nybrosalen, Sliperiet, Pukeberg|Våning 1, rum 022. Föreläsningssal.;sv_SE;Floor 1, room 022. Lecture hall.;en_US
+0;56.732378;15.923733|103, Sliperiet, Pukeberg;Datasal, Sliperiet, Pukeberg|Våning 2, rum 103. Datasal.;sv_SE;Floor 2, room 103. Computer room.;en_US
+0;56.65970864402589;16.361303329467773|Restaurang Zegel, Sjöfartshögskolan, Kalmar|Våning 1, rum Restaurang Zegel. Restaurang .;sv_SE;Floor 1, room Restaurang Zegel. Restaurant .;en_US
+0;56.6595081563637;16.36140525341034|B134K, Sjöfartshögskolan, Kalmar|Våning 1, rum B134K. Maskinrum.;sv_SE;Floor 1, room B134K. Enginge Room.;en_US
+0;56.65949341458176;16.36137306690216|B130K, Sjöfartshögskolan, Kalmar;Pneumatik, Sjöfartshögskolan, Kalmar|Våning 1, rum B130K. Vattenlabb.;sv_SE;Floor 1, room B130K. Waterlab.;en_US
+0;56.65945803428155;16.361314058303833|B129K, Sjöfartshögskolan, Kalmar|Våning 1, rum B129K. Lärosal.;sv_SE;Floor 1, room B129K. Classroom.;en_US
+0;56.65941970558553;16.361222863197326|B127K, Sjöfartshögskolan, Kalmar|Våning 1, rum B127K. Maskinteknik.;sv_SE;Floor 1, room B127K. Mechanical Engineering.;en_US
+0;56.65939906704075;16.361190676689148|B126K, Sjöfartshögskolan, Kalmar|Våning 1, rum B126K. DP-simulator Advanced.;sv_SE;Floor 1, room B126K. DP-simlutator Advanced.;en_US
+0;56.65935484154961;16.36111557483673|B125K, Sjöfartshögskolan, Kalmar|Våning 1, rum B125K. DP-simulator Basic.;sv_SE;Floor 1, room B125K. DP-simlutator Basic.;en_US
+0;56.65933420296931;16.361083388328552|B124K, Sjöfartshögskolan, Kalmar|Våning 1, rum B124K. Hydrauliklabb.;sv_SE;Floor 1, room B124K. Hydraulics Lab.;en_US
+0;56.65924575178293;16.361276507377624|B121K, Sjöfartshögskolan, Kalmar|Våning 1, rum B121K. Lärosal.;sv_SE;Floor 1, room B121K. Classroom.;en_US
+0;56.65910128106548;16.361453533172607|B119K, Sjöfartshögskolan, Kalmar|Våning 1, rum B119K. Lärosal.;sv_SE;Floor 1, room B119K. Classroom.;en_US
+0;56.659169093920184;16.361523270606994|B118K, Sjöfartshögskolan, Kalmar;Gradäng, Sjöfartshögskolan, Kalmar|Våning 1, rum B118K. Föreläsningssal.;sv_SE;Floor 1, room B118K. Auditorium.;en_US
+0;56.659251648535154;16.361582279205322|B117K, Sjöfartshögskolan, Kalmar;Gradäng, Sjöfartshögskolan, Kalmar|Våning 1, rum B117K. Föreläsningssal.;sv_SE;Floor 1, room B117K. Auditorium.;en_US
+0;56.65940496376898;16.36160910129547|B135K, Sjöfartshögskolan, Kalmar|Våning 1, rum B135K. Hörsal.;sv_SE;Floor 1, room B135K. Lecture Hall.;en_US
+0;56.65968505729745;16.36109948158264|C212K, Sjöfartshögskolan, Kalmar|Våning 2, rum C212K. Lärosal.;sv_SE;Floor 2, room C212K. Classroom.;en_US
+0;56.65967031558466;16.36113166809082|B251K, Sjöfartshögskolan, Kalmar|Våning 2, rum B251K. Datasal.;sv_SE;Floor 2, room B251K. Computer Room.;en_US
+0;56.659634935450505;16.361217498779297|B250K, Sjöfartshögskolan, Kalmar|Våning 2, rum B250K. Lärosal.;sv_SE;Floor 2, room B250K. Lecture Hall.;en_US
+0;56.65959365858535;16.361335515975952|B249K, Sjöfartshögskolan, Kalmar|Våning 2, rum B249K. Datasal.;sv_SE;Floor 2, room B249K. Computer room.;en_US
+0;56.65950225965163;16.36138916015625|B238K, Sjöfartshögskolan, Kalmar|Våning 2, rum B238K. Operationell maskinrumssimulator.;sv_SE;Floor 2, room B238K. Operational Mechanical simulator.;en_US
+0;56.659463931000566;16.361324787139892|B236K, Sjöfartshögskolan, Kalmar|Våning 2, rum B236K. Briefingrum.;sv_SE;Floor 2, room B236K. Briefing Room.;en_US
+0;56.65944624084077;16.361287236213684|B234K, Sjöfartshögskolan, Kalmar|Våning 2, rum B234K. Kyl och frys Labb.;sv_SE;Floor 2, room B234K. Fridge and Freezer lab.;en_US
+0;56.65939022194665;16.361196041107177|B233K, Sjöfartshögskolan, Kalmar|Våning 2, rum B233K. Last Simulator och transport labb.;sv_SE;Floor 2, room B233K. Load Simulator and Tramsport lab.;en_US
+0;56.659322409489775;16.361051201820373|B232K, Sjöfartshögskolan, Kalmar|Våning 2, rum B232K. Grafisk maskinrumssimulator.;sv_SE;Floor 2, room B232K. Grafic Engine simulator.;en_US
+0;56.65922511314292;16.361340880393982|B229K, Sjöfartshögskolan, Kalmar|Våning 2, rum B229K. Reglertekniklabb.;sv_SE;Floor 2, room B229K. Automatic control lab.;en_US
+0;56.65911897138716;16.36142671108246|B226K, Sjöfartshögskolan, Kalmar;Elteknik labb 1, Sjöfartshögskolan, Kalmar|Våning 2, rum B226K. Elteknik labb.;sv_SE;Floor 2, room B226K. Electrical engineering lab.;en_US
+0;56.659145506854124;16.361474990844726|B225K, Sjöfartshögskolan, Kalmar;Elteknik labb 2, Sjöfartshögskolan, Kalmar|Våning 2, rum B225K. Elteknik labb.;sv_SE;Floor 2, room B225K. Electrical engineering lab.;en_US
+0;56.65917793906614;16.361539363861084|B223K, Sjöfartshögskolan, Kalmar|Våning 2, rum B223K. Hälso- och sjukvård.;sv_SE;Floor 2, room B223K. Health care.;en_US
+0;56.65923395827574;16.361571550369262|B222K, Sjöfartshögskolan, Kalmar|Våning 2, rum B222K. Lärosal.;sv_SE;Floor 2, room B222K. Classroom.;en_US
+0;56.65926933878627;16.361759305000305|B221K, Sjöfartshögskolan, Kalmar|Våning 2, rum B221K. Lärosal.;sv_SE;Floor 2, room B221K. Classroom.;en_US
+0;56.65932535786002;16.361807584762573|B220K, Sjöfartshögskolan, Kalmar|Våning 2, rum B220K. Lärosal.;sv_SE;Floor 2, room B220K. Classroom.;en_US
+0;56.65929292577483;16.36167883872986|Långskeppet, Sjöfartshögskolan, Kalmar|Våning 3, rum Långskeppet. Konferensrum.;sv_SE;Floor 3, room Långskeppet. Conference room.;en_US
+0;56.65939317031158;16.361593008041382|B381K, Sjöfartshögskolan, Kalmar|Våning 3, rum B381K. GMDSS simulator.;sv_SE;Floor 3, room B381K. GMDSS simulator.;en_US
+0;56.65946687935972;16.361512541770935|B361K, Sjöfartshögskolan, Kalmar|Våning 3, rum B361K. Navigationssimulator.;sv_SE;Floor 3, room B361K. Navigation simulator.;en_US
+0;56.65959660693435;16.361571550369262||Våning 4, rum . Konferensrum.;sv_SE;Floor 4, room . Conference room.;en_US
+0;56.66535134463829;16.34789228439331|B190K, UB, biblioteket (Library), Kalmar|Våning 1, rum B190K. Sammanträde.;sv_SE;Floor 1, room B190K. Meeting.;en_US
+0;56.659316512748646;16.361989974975586|A116BK, Kocken, Kalmar|Våning 1, rum A116BK. Labb sal.;sv_SE;Floor 1, room A116BK. Labsal.;en_US
+0;56.65954058826372;16.361593008041382|B211K, Sjöfartshögskolan, Kalmar|Våning 2, rum B211K. Grupprum.;sv_SE;Floor 2, room B211K. Group room.;en_US
+0;56.65953026902583;16.361606419086456|B212K, Sjöfartshögskolan, Kalmar|Våning 2, rum B212K. Grupprum.;sv_SE;Floor 2, room B212K. Group room.;en_US
+0;56.659509630541585;16.36164665222168|B213K, Sjöfartshögskolan, Kalmar|Våning 2, rum B213K. Grupprum.;sv_SE;Floor 2, room B213K. Group room.;en_US
+0;56.65948456950982;16.361689567565918|B214K, Sjöfartshögskolan, Kalmar|Våning 2, rum B214K. Grupprum.;sv_SE;Floor 2, room B214K. Group room.;en_US
+0;56.65945803428155;16.361753940582275|B215K, Sjöfartshögskolan, Kalmar|Våning 2, rum B215K. Grupprum.;sv_SE;Floor 2, room B215K. Group room.;en_US
+0;56.6594388699384;16.3617941737175|B216K, Sjöfartshögskolan, Kalmar|Våning 2, rum B216K. Grupprum.;sv_SE;Floor 2, room B216K. Group room.;en_US
+0;56.65941528304116;16.361834406852722|B217K, Sjöfartshögskolan, Kalmar|Våning 2, rum B217K. Grupprum.;sv_SE;Floor 2, room B217K. Group room.;en_US
+0;56.65938432521614;16.361890733242035|B218K, Sjöfartshögskolan, Kalmar|Våning 2, rum B218K. Grupprum.;sv_SE;Floor 2, room B218K. Group room.;en_US
+0;56.659198577732006;16.361311376094818|B229K, Sjöfartshögskolan, Kalmar|Våning 2, rum B229K. Labbsal.;sv_SE;Floor 2, room B229K. Lab room.;en_US
+0;56.659294399961134;16.361069977283478|B232K, Sjöfartshögskolan, Kalmar|Våning 2, rum B232K. Labbsal.;sv_SE;Floor 2, room B232K. Lab room.;en_US
+0;56.65942412812936;16.361287236213684|B234K, Sjöfartshögskolan, Kalmar|Våning 2, rum B234K. Labbsal.;sv_SE;Floor 2, room B234K. Lab room.;en_US
+0;56.659374005935454;16.361700296401977|B241K, Sjöfartshögskolan, Kalmar|Våning 2, rum B241K. Labbsal.;sv_SE;Floor 2, room B241K. Lab room.;en_US
+0;56.6657434131337;16.347827911376953|B231K, UB, biblioteket, Kalmar|Våning 2, rum B231K. Grupprum.;sv_SE;Floor 2, room B231K. Group room.;en_US
+0;56.66573751739706;16.347817182540893|B232K, UB, biblioteket, Kalmar|Våning 2, rum B232K. Grupprum.;sv_SE;Floor 2, room B232K. Group room.;en_US
+0;56.665702142957855;16.347827911376953|B241K, UB, biblioteket, Kalmar|Våning 2, rum B241K. Grupprum.;sv_SE;Floor 2, room B241K. Group room.;en_US
+0;56.665663820611236;16.347833275794983|B242K, UB, biblioteket, Kalmar|Våning 2, rum B242K. Grupprum.;sv_SE;Floor 2, room B242K. Group room.;en_US
+0;56.66565202911212;16.347833275794983|B243K, UB, biblioteket, Kalmar|Våning 2, rum B243K. Grupprum.;sv_SE;Floor 2, room B243K. Group room.;en_US
+0;56.66548989562525;16.347860097885132|B251K, UB, biblioteket, Kalmar|Våning 2, rum B251K. Grupprum.;sv_SE;Floor 2, room B251K. Group room.;en_US
+0;56.66547220829358;16.34787082672119|B252K, UB, biblioteket, Kalmar|Våning                  2, rum B252K. Grupprum.;sv_SE;Floor                  2, room B252K. Group room.;en_US
+0;56.66547515618277;16.347854733467102|B261K, UB, biblioteket, Kalmar|Våning                  2, rum B261K. Grupprum.;sv_SE;Floor                  2, room B261K. Group room.;en_US
+0;56.6654663125145;16.347854733467102|B262K, UB, biblioteket, Kalmar|Våning 2, rum B262K. Grupprum.;sv_SE;Floor 2, room B262K. Group room.;en_US
+0;56.66544272938903;16.347860097885132|B263K, UB, biblioteket, Kalmar|Våning 2, rum B263K. Grupprum.;sv_SE;Floor 2, room B263K. Group room.;en_US
+0;56.66542504203522;16.347860097885132|B271K, UB, biblioteket, Kalmar|Våning 2, rum B271K. Grupprum.;sv_SE;Floor 2, room B271K. Group room.;en_US
+0;56.665416198355196;16.347860097885132|B272K, UB, biblioteket, Kalmar|Våning 2, rum B272K. Grupprum.;sv_SE;Floor 2, room B272K. Group room.;en_US
+0;56.66539556309374;16.347860097885132|B281K, UB, biblioteket, Kalmar|Våning                   2, rum B281K. Grupprum.;sv_SE;Floor                   2, room B281K. Group room.;en_US
+0;56.66536608412922;16.34787082672119|B282K, UB, biblioteket, Kalmar|Våning                  2, rum B282K. Grupprum.;sv_SE;Floor                  2, room B282K. Group room.;en_US
+0;56.665348396739425;16.34788155555725|B279K, UB, biblioteket, Kalmar|Våning                  2, rum B279K. Grupprum.;sv_SE;Floor                  2, room B279K. Group room.;en_US
+0;56.659407912132735;16.36162519454956|B307K, Sjöfartshögskolan, Kalmar|Våning                 3, rum B307K. Grupprum.;sv_SE;Floor                 3, room B307K. Group room.;en_US
+0;56.659316512748646;16.36163055896759|B371K, Sjöfartshögskolan, Kalmar|Våning 3, rum B371K. Konferensrum.;sv_SE;Floor 3, room B371K. Conference room.;en_US
+0;56.659387273581494;16.3616144657135|B381K, Sjöfartshögskolan, Kalmar|Våning 3, rum B381K. Labbsal.;sv_SE;Floor 3, room B381K. Lab room.;en_US
+0;56.65978530079137;16.361255049705505|C211K, Sjöfartshögskolan, Kalmar|Våning 2, rum C211K. Grupprum.;sv_SE;Floor 2, room C211K. Group room.;en_US
+0;56.665093402614204;16.349171698093414|E314K, Nisbethska, Kalmar|Våning 3, rum E314K. Föreläsningssal.;sv_SE;Floor 3, room E314K. Auditorium.;en_US
+0;56.66528354290586;16.349112689495086|E309K, Nisbethska, Kalmar|Våning 3, rum E309K. Föreläsningssal.;sv_SE;Floor 3, room E309K. Auditorium.;en_US
+0;56.665046235881704;16.349375545978546|E406K, Nisbethska, Kalmar|Våning 3, rum E406K. Konferensrum.;sv_SE;Floor 3, room E406K. Conference room.;en_US
+0;56.65941086049629;16.36286973953247|233K, Kalmarsundslaboratoriet, Kalmar|Våning 2, rum 233K. Labbsal.;sv_SE;Floor 2, room 233K. Lab room.;en_US
+0;56.65942855067268;16.36285364627838|234K, Kalmarsundslaboratoriet, Kalmar|Våning 2, rum 234K. Labbsal.;sv_SE;Floor 2, room 234K. Lab room.;en_US
+0;56.65935189318168;16.362977027893066|247K, Kalmarsundslaboratoriet, Kalmar|Våning 2, rum 247K. Labbsal.;sv_SE;Floor 2, room 247K. Lab room.;en_US
+0;56.6594314990346;16.362993121147155|242K, Kalmarsundslaboratoriet, Kalmar|Våning 2, rum 242K. Labbsal.;sv_SE;Floor 2, room 242K. Lab room.;en_US
+0;56.659372531752275;16.362950205802917|248K, Kalmarsundslaboratoriet, Kalmar|Våning 2, rum 248K. Labbsal.;sv_SE;Floor 2, room 248K. Lab room.;en_US
+0;56.65942855067268;16.363078951835632|342K, Kalmarsundslaboratoriet, Kalmar|Våning 3, rum 342K. Labbsal.;sv_SE;Floor 3, room 342K. Lab room.;en_US
+0;56.665262907571794;16.351953148841858||Våning 2, rum . Övernattning.;sv_SE;Floor 2, room . Overnight.;en_US
+0;56.665248168040506;16.351958513259887||Våning 2, rum . Övernattning.;sv_SE;Floor 2, room . Overnight.;en_US
+0;56.65909243590154;16.362327933311462|A116K, Kocken, Kalmar|Våning 1, rum A116K. Labbsal.;sv_SE;Floor 1, room A116K. Lab room.;en_US
+0;56.65908359073551;16.362357437610626|A117K, Kocken, Kalmar|Våning 1, rum A117K. Labbsal.;sv_SE;Floor 1, room A117K. Lab room.;en_US
+0;56.65906442620199;16.36239230632782|A118K, Kocken, Kalmar|Våning 1, rum A118K. Labbsal.;sv_SE;Floor 1, room A118K. Lab room.;en_US
+0;56.659216268008;16.362317204475403|A138K, Kocken, Kalmar|Våning 1, rum A138K. Föreläsningssal.;sv_SE;Floor 1, room A138K. Auditorium.;en_US
+0;56.65920447449158;16.362346708774566|A139K, Kocken, Kalmar|Våning 1, rum A139K. Grupprum.;sv_SE;Floor 1, room A139K. Group room.;en_US
+0;56.65918973259086;16.3623708486557|A140K, Kocken, Kalmar|Våning 1, rum A140K. Grupprum.;sv_SE;Floor 1, room A140K. Group room.;en_US
+0;56.6591764648753;16.36241376399994|A141K, Kocken, Kalmar|Våning 1, rum A141K. Grupprum.;sv_SE;Floor 1, room A141K. Group room.;en_US
+0;56.66508750677587;16.349091231822967|N212K, Nisbethska, Kalmar|Våning 2, rum N212K. Föreläsningssal.;sv_SE;Floor 2, room N212K. Auditorium.;en_US
+0;56.6650712932157;16.348983943462372|N210K, Nisbethska, Kalmar|Våning 2, rum N210K. Föreläsningssal.;sv_SE;Floor 2, room N210K. Auditorium.;en_US
+0;56.66499759512702;16.349040269851684|N206K, Nisbethska, Kalmar|Våning 2, rum N206K. Föreläsningssal.;sv_SE;Floor 2, room N206K. Auditorium.;en_US
+0;56.66887391901131;16.351046562194824|N016K, Norrgård, Kalmar|Våning 0, rum N016K. Djurrum.;sv_SE;Floor 0, room N016K. Animal roomm.;en_US
+0;56.668862128516636;16.351207494735717|N144K, Norrgård, Kalmar|Våning 1, rum N144K. Föreläsningssal.;sv_SE;Floor 1, room N144K. Auditorium.;en_US
+0;56.66871474702196;16.351046562194824|N148K, Norrgård, Kalmar|Våning 1, rum N148K. Konferensrum.;sv_SE;Floor 1, room N148K. Conference room.;en_US
+0;56.66879728072999;16.350982189178467|N157K, Norrgård, Kalmar|Våning 1, rum N157K. Labbsal.;sv_SE;Floor 1, room N157K. Lab room.;en_US
+0;56.66888570950229;16.350950002670288|N158K, Norrgård, Kalmar|Våning 1, rum N158K. Datorsal.;sv_SE;Floor 1, room N158K. Computer room.;en_US
+0;56.66862042256282;16.350553035736084|N1002K, Västergård, Kalmar|Våning 1, rum N1002K. Föreläsningssal.;sv_SE;Floor 1, room N1002K. Auditorium.;en_US
+0;56.668655794262655;16.35041356086731|N1011K, Västergård, Kalmar|Våning 1, rum N1011K. Skrivsal.;sv_SE;Floor 1, room N1011K. Exam room.;en_US
+0;56.66872653756273;16.350038051605224|N2030K, Västergård, Kalmar|Våning 2, rum N2030K. Grupprum.;sv_SE;Floor 2, room N2030K. Group room.;en_US
+0;56.678965229302534;16.35911464691162|G137K, G-Huset, Kalmar|Våning 1, rum G137K. Grupprum.;sv_SE;Floor 1, room G137K. Group room.;en_US
+0;56.67897112296959;16.358985900878906|G145K, G-Huset, Kalmar|Våning 1, rum G145K. Ljudlabb.;sv_SE;Floor 1, room G145K. Sound lab.;en_US
+0;56.67899469762862;16.359093189239502|G138K, G-Huset, Kalmar|Våning 1, rum G138K. Tv - studio.;sv_SE;Floor 1, room G138K. Tv - studio.;en_US
+0;56.67907720881891;16.359018087387085|G139K, G-Huset, Kalmar|Våning 1, rum G139K. Tv - studio.;sv_SE;Floor 1, room G139K. Tv - studio.;en_US
+0;56.67870590703911;16.356958150863647|A22:11K, Kalmar Nyckel A, Kalmar;Ny206K, Kalmar Nyckel A, Kalmar|Våning 1, rum A22:11K. Grupprum.;sv_SE;Floor 1, room A22:11K. Group room.;en_US
+0;56.678717694453454;16.35717272758484|A21:36K, Kalmar Nyckel A, Kalmar;Ny205K, Kalmar Nyckel A, Kalmar|Våning 1, rum A21:36K. Grupprum.;sv_SE;Floor 1, room A21:36K. Group room.;en_US
+0;56.67868822591069;16.35715126991272|A22:17BK, Kalmar Nyckel A, Kalmar;Ny208K, Kalmar Nyckel A, Kalmar|Våning 1, rum A22:17BK. Grupprum.;sv_SE;Floor 1, room A22:17BK. Group room.;en_US
+0;56.678853249453276;16.357322931289673|A22:30AK, Kalmar Nyckel A, Kalmar;Ny211K, Kalmar Nyckel A, Kalmar|Våning 1, rum A22:30AK. Grupprum.;sv_SE;Floor 1, room A22:30AK. Group room.;en_US
+0;56.67905363421156;16.35760188102722|A22:25AK, Kalmar Nyckel A, Kalmar;Ny212K, Kalmar Nyckel A, Kalmar|Våning 1, rum A22:25AK. Grupprum.;sv_SE;Floor 1, room A22:25AK. Group room.;en_US
+0;56.67895933563456;16.357247829437256|A22:30BK, Kalmar Nyckel A, Kalmar;Ny213K, Kalmar Nyckel A, Kalmar|Våning 1, rum A22:30BK. Grupprum.;sv_SE;Floor 1, room A22:30BK. Group room.;en_US
+0;56.67895933563456;16.357988119125366|A23:20AK, Kalmar Nyckel A, Kalmar;Ny215K, Kalmar Nyckel A, Kalmar|Våning 1, rum A23:20AK. Grupprum.;sv_SE;Floor 1, room A23:20AK. Group room.;en_US
+0;56.67832281406492;16.358513832092285|A25:13BK, Kalmar Nyckel A, Kalmar;Ny240K, Kalmar Nyckel A, Kalmar|Våning 1, rum A25:13BK. Föreläsningssal.;sv_SE;Floor 1, room A25:13BK. Auditorium.;en_US
+0;56.678393539214944;16.35837435722351|A25:18K, Kalmar Nyckel A, Kalmar;Ny241K, Kalmar Nyckel A, Kalmar|Våning 1, rum A25:18K. Grupprum.;sv_SE;Floor 1, room A25:18K. Group room.;en_US
+0;56.6787825251664;16.357054710388183|A31:26K, Kalmar Nyckel A, Kalmar;Ny303K, Kalmar Nyckel A, Kalmar|Våning 2, rum A31:26K. Grupprum.;sv_SE;Floor 2, room A31:26K. Group room.;en_US
+0;56.679071315168464;16.35817050933838|A33:23, Kalmar Nyckel A, Kalmar;Ny332K, Kalmar Nyckel A, Kalmar|Våning 2, rum A33:23. Konferensrum.;sv_SE;Floor 2, room A33:23. Conference room.;en_US

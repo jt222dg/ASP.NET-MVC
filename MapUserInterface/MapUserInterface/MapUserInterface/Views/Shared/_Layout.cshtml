@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="@ViewData["lang"]">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+    <title>@ViewBag.Title</title>
+	<link rel="stylesheet" href="@Url.Content("~/Content/style.css")">
+</head>
+
+<body>
+    @RenderBody()
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="@Url.Content("~/Scripts/plugins.js")"></script>
+    <script src="@Url.Content("~/Scripts/script.js")"></script>
+</body>
+
+</html>

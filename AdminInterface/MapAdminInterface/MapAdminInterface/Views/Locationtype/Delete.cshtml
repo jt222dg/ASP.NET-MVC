@@ -1,0 +1,16 @@
+﻿@model MapAdminInterface.Models.LocationType
+
+@{
+    ViewBag.Title = "Ta bort typ";
+}
+<fieldset>
+    <legend>Ta bort</legend>
+    <p>Är du säker på att du vill ta bort typen @Html.DisplayFor(model => model.location_type_swe)?</p>
+
+    @using (Html.BeginForm()) {
+        <div class="actions">
+            <input type="submit" class="remove_submit" value="Ta bort" />
+            <div class="abort">@Html.ActionLink("Avbryt", "Index", "LocationType")</div>
+        </div>
+    }
+</fieldset>

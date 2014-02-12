@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MvcApplication5ModelsStoreContainer" CdmEntityContainer="kartaEntities">
+    <FunctionImportMapping FunctionImportName="usp_Area" FunctionName="MvcApplication5.Models.Store.usp_Area" />
+    <FunctionImportMapping FunctionImportName="usp_insert_OldDATA" FunctionName="MvcApplication5.Models.Store.usp_insert_OldDATA" />
+  </EntityContainerMapping>
+</Mapping>

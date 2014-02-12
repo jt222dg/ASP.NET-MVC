@@ -1,0 +1,13 @@
+﻿@model MapAdminInterface.Models.LocationName
+<div>
+    <span class="name_sv">
+        @Html.DisplayFor(model => model.location_name_swe)
+    </span>
+    <span class="name_eng">
+        @if (Model.location_name_eng == Model.location_name_swe) {
+            Model.location_name_eng = "";
+        }
+        @Html.DisplayFor(model => model.location_name_eng)
+    </span>
+</div>
+    

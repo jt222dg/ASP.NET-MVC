@@ -1,0 +1,15 @@
+API autentisiering för delete/update/create (Shibolett lösning)
+Alexandra frågor om databasen, kolla av med kund.
+Ta reda på vilka ikoner som kan finas?
+Ikoner till google maps från deras grafikeravdelning.
+Gränssnit SPA? varför javascript?
+
+Visa klassdiagram för kund - ta input
+
+area long lat hur löste ni det tidigare?
+
+test - nunit, native visual studio?
+
+språk? språkfil.
+
+SPA vs server request?

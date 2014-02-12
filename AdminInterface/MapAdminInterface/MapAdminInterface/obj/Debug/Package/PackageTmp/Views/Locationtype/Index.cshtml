@@ -1,0 +1,45 @@
+﻿@model MapAdminInterface.ViewModels.LocationTypeViewModel
+
+@{
+    ViewBag.Title = "Typer";
+}
+
+<h1>Platstyper</h1>
+<div class="create"><span class="add_ico">+</span>@Html.ActionLink("Skapa typ", "Create")</div>
+
+<table>
+    <tr>
+        <th>
+            Typ
+        </th>
+        <th>
+            Översättning eng
+        </th>
+        <th>
+            Ikon
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model.LocationTypes) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.location_type_swe)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.location_type_eng)
+        </td>
+        <td>
+           @Html.DisplayFor(modelItem => item.Icon)
+        </td>
+        <td>
+            <div class="edit">@Html.ActionLink(" ", "Edit", new { id=item.location_type_id })</div>
+            @if(item.Locations.Count() == 0)
+            {
+                <div class="remove">@Html.ActionLink(" ", "Delete", new { id=item.location_type_id })</div>
+            }
+        </td>
+    </tr>
+}
+
+</table>

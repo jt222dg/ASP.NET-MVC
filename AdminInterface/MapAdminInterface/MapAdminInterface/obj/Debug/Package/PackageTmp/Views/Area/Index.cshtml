@@ -1,0 +1,50 @@
+﻿@model MapAdminInterface.ViewModels.AreaViewModel
+
+@{
+    ViewBag.Title = "Områden";
+}
+
+<h1>Områden</h1>
+
+<div class="create"><span class="add_ico">+</span>@Html.ActionLink("Skapa område", "Create")</div>
+
+<table>
+    <tr>
+        <th>
+            Stad
+        </th>
+        <th>
+            Område
+        </th>
+        <th>
+            Översättning eng
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model.Areas) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.City.city1)
+        </td>
+        <td>
+            @Html.ActionLink(item.area_swe, "ShowAreaLocations", "Location", new { id=item.area_id }, null)
+        </td>
+        <td>
+            @if (item.area_swe == item.area_eng)
+            {
+                item.area_eng = "";
+            }
+            @Html.DisplayFor(modelItem => item.area_eng)
+        </td>
+        <td>
+            <div class="edit">@Html.ActionLink(" ", "Edit", new { id=item.area_id })</div>
+            @if(item.Locations.Count() == 0)
+            {
+                <div class="remove">@Html.ActionLink(" ", "Delete", new { id=item.area_id })</div>
+            }
+        </td>
+    </tr>
+}
+
+</table>

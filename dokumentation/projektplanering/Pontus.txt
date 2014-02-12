@@ -1,0 +1,34 @@
+Projektnamn?
+
+Kontaktuppgifter till pontus utöver tele & mail?
+
+Vem är updragsgivaren och deras kontaktuppgifter?
+
+Bakgrund till projektets uppkomst?
+
+Syfte med projektet?
+
+Projektets mål?
+
+Resursplan, har vi fler resurser att arbeta med?
+
+Tidplan för projektet, med milstolpar för deadlines
+Önskavärda för kund?
+
+Kommunikationsplan, när kan vi nå pontus bäst och när ska vi sätta upp möten?
+
+Lite frågor till Pontus...
+Kunder/besökare/användare?	-> Målgrupp
+Persona? (typisk användare)	-> Målgrupp
+Budskap?			-> Innehåll / Utseende
+Material?			-> Innehåll / Utseende
+Ev. Produkter / Tjänster?	-> Innehåll
+Var ska applikationen hostas?	-> Möjligheter (tekniker)
+Nytt/gammalt projekt?		-> Förutsättningar (tekniker)
+Mål-plattform? (web/mobil osv)	-> Förutsättningar (tekniker)
+Framtiden?			-> Förutsättningar
+Ev. Begränsningar?		-> Förutsättningar
+Aktörer/intressenter		-> För användarfall
+Önskade features		-> För användarfall
+Organisation			-> För DB / UML
+Någonting annat som är viktigt som vi har missat?

@@ -1,0 +1,86 @@
+﻿@{
+    ViewBag.Title = "LNU Map";
+}
+
+    <div class="header">
+
+		<h1 class="logo">Linnéuniversitetet</h1>
+
+	</div>
+
+	<div class="clearfix">
+
+		<div class="sidebar">
+               
+            <h2>Search buildings and facilities</h2>
+
+			<form class="search-form">
+
+				<input type="text" name="q" id="q" autocomplete="off">
+
+				<input type="submit" value="Sök">
+
+			</form>
+
+             <div class="shortcuts">
+
+                Show city:
+                <a href="#" data-id="1">Kalmar</a>
+				<a href="#" data-id="3">Växjö</a>
+
+			</div>
+
+			<div class="sidebar-tabs">
+
+				<ul class="sidebar-nav">
+					<li><a href="#filters" class="filter-link active">Filters</a></li>
+					<li><a href="#directions" class="directions-link">Directions</a></li>
+				</ul>
+
+				<div class="tab-filters" id="filters">
+
+					<h3>Filters</h3>
+
+					<ul class="filter-list">
+
+					</ul>
+
+				</div>
+
+				<div class="tab-directions" id="directions">
+
+					<h3>Directions</h3>
+
+					<form class="directions-form">
+
+						<label for="start">From address</label>
+						<p class="top">
+							<input type="text" name="start" id="start" class="directions-start">
+						</p>
+
+						<label for="end">To</label>
+						<p class="top">
+							<input type="text" name="end" id="end" class="directions-end">
+						</p>
+
+						<input type="hidden" name="end-coordinates" id="end-coordinates">
+
+						<input type="submit" value="Search">
+
+					</form>
+
+					<div class="directions-panel"></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="main">
+
+			<div class="map-canvas"></div>
+
+		</div>
+
+	</div>

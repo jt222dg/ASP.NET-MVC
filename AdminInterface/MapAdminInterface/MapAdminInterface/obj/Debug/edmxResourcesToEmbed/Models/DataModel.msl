@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MapAdminInterfaceModelsStoreContainer" CdmEntityContainer="MapEntities">
+    <EntitySetMapping Name="Areas">
+      <EntityTypeMapping TypeName="MapAdminInterface.Models.Area">
+        <MappingFragment StoreEntitySet="Area">
+          <ScalarProperty Name="area_id" ColumnName="area_id" />
+          <ScalarProperty Name="city_id" ColumnName="city_id" />
+          <ScalarProperty Name="area_swe" ColumnName="area_swe" />
+          <ScalarProperty Name="area_eng" ColumnName="area_eng" />
+          <ScalarProperty Name="latitude" ColumnName="latitude" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="MapAdminInterface.Models.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="city_id" ColumnName="city_id" />
+          <ScalarProperty Name="city1" ColumnName="city" />
+          <ScalarProperty Name="latitude" ColumnName="latitude" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Icons">
+      <EntityTypeMapping TypeName="MapAdminInterface.Models.Icon">
+        <MappingFragment StoreEntitySet="Icon">
+          <ScalarProperty Name="icon_id" ColumnName="icon_id" />
+          <ScalarProperty Name="icon_link" ColumnName="icon_link" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="MapAdminInterface.Models.Location">
+        <MappingFragment StoreEntitySet="Location">
+          <ScalarProperty Name="location_id" ColumnName="location_id" />
+          <ScalarProperty Name="location_type_id" ColumnName="location_type_id" />
+          <ScalarProperty Name="area_id" ColumnName="area_id" />
+          <ScalarProperty Name="latitude" ColumnName="latitude" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+          <ScalarProperty Name="floor_nr" ColumnName="floor_nr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LocationNames">
+      <EntityTypeMapping TypeName="MapAdminInterface.Models.LocationName">
+        <MappingFragment StoreEntitySet="LocationName">
+          <ScalarProperty Name="location_name_id" ColumnName="location_name_id" />
+          <ScalarProperty Name="location_id" ColumnName="location_id" />
+          <ScalarProperty Name="location_name_swe" ColumnName="location_name_swe" />
+          <ScalarProperty Name="location_name_eng" ColumnName="location_name_eng" />
+          <ScalarProperty Name="is_main" ColumnName="is_main" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LocationTypes">
+      <EntityTypeMapping TypeName="MapAdminInterface.Models.LocationType">
+        <MappingFragment StoreEntitySet="LocationType">
+          <ScalarProperty Name="location_type_id" ColumnName="location_type_id" />
+          <ScalarProperty Name="location_type_swe" ColumnName="location_type_swe" />
+          <ScalarProperty Name="location_type_eng" ColumnName="location_type_eng" />
+          <ScalarProperty Name="icon_id" ColumnName="icon_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="usp_area_locations" FunctionName="MapAdminInterface.Models.Store.usp_area_locations">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MapAdminInterface.Models.usp_area_locations_Result">
+          <ScalarProperty Name="location_id" ColumnName="location_id" />
+          <ScalarProperty Name="location_type_id" ColumnName="location_type_id" />
+          <ScalarProperty Name="area_id" ColumnName="area_id" />
+          <ScalarProperty Name="latitude" ColumnName="latitude" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+          <ScalarProperty Name="floor_nr" ColumnName="floor_nr" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_search_locations" FunctionName="MapAdminInterface.Models.Store.usp_search_locations">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MapAdminInterface.Models.usp_search_locations_Result">
+          <ScalarProperty Name="location_id" ColumnName="location_id" />
+          <ScalarProperty Name="location_type_id" ColumnName="location_type_id" />
+          <ScalarProperty Name="area_id" ColumnName="area_id" />
+          <ScalarProperty Name="latitude" ColumnName="latitude" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+          <ScalarProperty Name="floor_nr" ColumnName="floor_nr" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

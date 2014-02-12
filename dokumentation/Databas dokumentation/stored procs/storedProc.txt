@@ -1,0 +1,21 @@
+usp_API_get_locations			(ingen)
+usp_API_get_location_by_id		(location_id)
+usp_API_get_locations_by_city_id	(city_id)
+usp_API_get_locations_by_name		(name)
+usp_API_get_locations_by_area_id	(area_id)
+usp_API_get_locations_by_type_id	(type_id)
+
+usp_API_get_areas 		(ingen)
+usp_API_get_area_by_id		(area_id)
+usp_API_get_areas_by_city_id	(city_id)
+usp_API_get_areas_by_name	(name)
+
+usp_API_get_cities		(ingen)
+usp_API_get_city_by_id		(city_id)
+usp_API_get_city_by_name 	(name)
+
+usp_API_get_locationTypes		(ingen)
+usp_API_get_locationTypes_by_id		(locationType_id)
+usp_API_get_locationTypes_by_name 	(name)
+
+

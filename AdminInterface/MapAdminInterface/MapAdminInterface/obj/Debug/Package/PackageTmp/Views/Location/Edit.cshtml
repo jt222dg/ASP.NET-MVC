@@ -1,0 +1,94 @@
+﻿@model MapAdminInterface.ViewModels.LocationViewModel
+@using MapAdminInterface.Models
+@{
+    ViewBag.Title = "Redigera plats";
+}
+
+@using (Html.BeginForm("Edit", "Location", FormMethod.Post, new{@id="location_form"})) {
+    <fieldset>
+        <legend>Redigera plats @Model.Location.LocationNames.First().location_name_swe </legend>
+
+        @Html.ValidationSummary(true, "Det fanns fel i den postade informationen.")
+
+        <div class="editor-label">
+            <label>Stad</label>
+        </div>
+        @Model.GetCityName(Model.Location.area_id)
+
+        <div class="editor-label">
+        @Html.LabelFor(model => model.Location.Area)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownListFor(
+                m => m.Location.area_id,
+                new SelectList(
+                    Model.CityAreas(
+                        Model.Location.Area.city_id), "area_id", "area_swe"
+                    )
+                )
+        </div>
+
+        @if (Model.HasChosenArea)
+        {
+            Model.Location.latitude = 0;
+            Model.Location.longitude = 0;
+        }
+            
+        @Html.HiddenFor(model => model.Location.latitude)
+        @Html.HiddenFor(model => model.Location.longitude)
+        @Html.HiddenFor(model => model.HasChosenCity)
+        @Html.HiddenFor(model => model.HasChosenArea)
+        
+        <div class="editor-label">
+            <label>Koordinater</label>
+        </div>
+        <p>Sätt ut markören på området</p>
+        @Html.ValidationMessageFor(m  => m.Location.latitude)
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+        <script type="text/javascript" src="@Url.Content("~/Scripts/googlemaps.js")"></script>
+        <div id="map_canvas" style="width:100%; height:300px"></div>
+        <script type="text/javascript">
+            if ("@Model.Location.latitude" != 0) {
+                initialize("@Model.Location.latitude.ToString()", "@Model.Location.longitude.ToString()", zoomValue = 30)
+            }
+            else {
+                initialize("@Model.GetArea(Model.Location.area_id).latitude.ToString()", "@Model.GetArea(Model.Location.area_id).longitude.ToString()", zoomValue = 15)
+            }
+        </script>
+            
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Location.floor_nr)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownListFor(m => m.Location.floor_nr, new SelectList(Model.FloorNumbers))
+        </div>
+            
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Location.LocationType)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownListFor(m => m.Location.location_type_id, new SelectList(Model.LocationTypes, "location_type_id", "location_type_swe"))
+        </div>
+            
+        <fieldset>
+                <legend class="nested-fieldset">
+                    <div class="editor-label">
+                        <label>Namn</label>
+                    </div>
+                </legend>
+                <div id="locationNames">
+                    @if (Model.Location.LocationNames.Count() == 0)
+                    {
+                        Model.Location.LocationNames.Add(new LocationName());
+                    }
+                    <p>Det namn som ligger överst kommer att bli platsens huvudnamn</p>
+                    @Html.EditorFor(x => x.Location.LocationNames) 
+                </div>
+            <div class="create"><span class="add_ico">+</span>@Html.LinkToAddNestedForm("Lägg tillnamn","#locationNames", ".locationNames", "Location.LocationNames", typeof(LocationName))</div>
+            </fieldset>
+            <div class="actions">
+                <input type="submit" class="save_submit" name="save" value="Spara" />
+                <div class="abort">@Html.ActionLink("Avbryt", "Index", "Location")</div>
+            </div>
+    </fieldset>
+}
